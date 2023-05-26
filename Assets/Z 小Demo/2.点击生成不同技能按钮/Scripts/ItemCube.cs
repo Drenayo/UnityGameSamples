@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Z2
+namespace Z_2
 {
     public class ItemCube : MonoBehaviour
     {

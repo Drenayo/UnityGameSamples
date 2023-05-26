@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Z3
+namespace Z_3
 {
     public class Player : MonoBehaviour
     {

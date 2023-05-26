@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Z2
+namespace Z_2
 {
     public class CheckCube : MonoBehaviour
     {

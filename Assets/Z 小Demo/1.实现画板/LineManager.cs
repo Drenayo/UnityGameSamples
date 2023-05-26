@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Z1_1
+namespace Z_1
 {
     public class LineManager : MonoBehaviour
     {
