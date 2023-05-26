@@ -1,0 +1,3199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bind Pose
+  serializedVersion: 7
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -3.7732393e-17, y: 0.6760542, z: 0.73685193, w: -4.8480837e-17}
+        inSlope: {x: 0.04414973, y: 0.24275494, z: -0.225945, w: -0.04403493}
+        outSlope: {x: 0.04414973, y: 0.24275494, z: -0.225945, w: -0.04403493}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.0018395721, y: 0.68616897, z: 0.72743756, w: -0.0018347889}
+        inSlope: {x: 0.022074865, y: 0.12137747, z: -0.1129725, w: -0.022017466}
+        outSlope: {x: 0.022074865, y: 0.12137747, z: -0.1129725, w: -0.022017466}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.005197289, y: 2.314022e-16, z: 1.0670741e-16, w: 0.9999865}
+        inSlope: {x: -0.0376557, y: 0.00485627, z: 0.08883674, w: -0.00039052963}
+        outSlope: {x: -0.0376557, y: 0.00485627, z: 0.08883674, w: -0.00039052963}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.0067662764, y: 0.00020234458, z: 0.0037015309, w: 0.99997026}
+        inSlope: {x: -0.01882785, y: 0.002428135, z: 0.04441837, w: -0.00019526482}
+        outSlope: {x: -0.01882785, y: 0.002428135, z: 0.04441837, w: -0.00019526482}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.00516758, y: 7.671734e-18, z: -9.124684e-17, w: 0.99998665}
+        inSlope: {x: 0.042490505, y: 0.13350888, z: 0.2287615, w: -0.0017180443}
+        outSlope: {x: 0.042490505, y: 0.13350888, z: 0.2287615, w: -0.0017180443}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.006938018, y: 0.0055628703, z: 0.009531729, w: 0.99991506}
+        inSlope: {x: 0.021245252, y: 0.06675444, z: 0.11438075, w: -0.00085902214}
+        outSlope: {x: 0.021245252, y: 0.06675444, z: 0.11438075, w: -0.00085902214}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.7064522, y: -0.7064522, z: -0.030419882, w: -0.030419882}
+        inSlope: {x: 0.13531065, y: 0.11938763, z: 0.15801036, w: 0.32236683}
+        outSlope: {x: 0.13531065, y: 0.11938763, z: 0.15801036, w: 0.32236683}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.71209013, y: -0.7014777, z: -0.023836117, w: -0.016987931}
+        inSlope: {x: 0.067655325, y: 0.059693813, z: 0.07900518, w: 0.16118342}
+        outSlope: {x: 0.067655325, y: 0.059693813, z: 0.07900518, w: 0.16118342}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.3564841, y: 4.536975e-16, z: -0.9343014, w: 1.2422812e-16}
+        inSlope: {x: 0.5169897, y: 0.5859702, z: 0.21189022, w: -0.025919119}
+        outSlope: {x: 0.5169897, y: 0.5859702, z: 0.21189022, w: -0.025919119}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.37802532, y: 0.024415428, z: -0.9254726, w: -0.0010799633}
+        inSlope: {x: 0.25849485, y: 0.2929851, z: 0.10594511, w: -0.012959559}
+        outSlope: {x: 0.25849485, y: 0.2929851, z: 0.10594511, w: -0.012959559}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -8.1288524e-16, y: 0.5116732, z: -5.047845e-16, w: 0.8591802}
+        inSlope: {x: -5.605067e-16, y: -1.0067439, z: 9.530722e-16, w: 0.5671749}
+        outSlope: {x: -5.605067e-16, y: -1.0067439, z: 9.530722e-16, w: 0.5671749}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -8.362397e-16, y: 0.46972555, z: -4.650732e-16, w: 0.8828125}
+        inSlope: {x: -2.8025334e-16, y: -0.50337195, z: 4.765361e-16, w: 0.28358746}
+        outSlope: {x: -2.8025334e-16, y: -0.50337195, z: 4.765361e-16, w: 0.28358746}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -7.658294e-16, y: -0.115973376, z: 2.7520722e-17, w: 0.99325234}
+        inSlope: {x: -0.37254095, y: 0.5886662, z: 0.23743989, w: 0.057302}
+        outSlope: {x: -0.37254095, y: 0.5886662, z: 0.23743989, w: 0.057302}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.01552254, y: -0.09144562, z: 0.009893329, w: 0.9956399}
+        inSlope: {x: -0.18627048, y: 0.2943331, z: 0.11871994, w: 0.028651}
+        outSlope: {x: -0.18627048, y: 0.2943331, z: 0.11871994, w: 0.028651}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt/War_Thog_l_FrontLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -8.9520315e-18, y: 0.7071068, z: 8.9520315e-18, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -8.9520315e-18, y: 0.7071068, z: 8.9520315e-18, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt/War_Thog_l_FrontLeg_AnkleSHJnt/War_Thog_l_FrontLeg_BallSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 3.469447e-18, y: -5.7389383e-16, z: 1, w: 6.123234e-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 3.469447e-18, y: -5.7389383e-16, z: 1, w: 6.123234e-17}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -5.995198e-16, y: 0.3564841, z: -3.860374e-17, w: 0.9343014}
+        inSlope: {x: -0.5815281, y: 1.1634829, z: -0.040236253, w: -0.48697758}
+        outSlope: {x: -0.5815281, y: 1.1634829, z: -0.040236253, w: -0.48697758}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.02423034, y: 0.40496254, z: -0.0016765106, w: 0.91401064}
+        inSlope: {x: -0.29076406, y: 0.58174145, z: -0.020118127, w: -0.24348879}
+        outSlope: {x: -0.29076406, y: 0.58174145, z: -0.020118127, w: -0.24348879}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -3.6965402e-16, y: 0.5116732, z: -5.32376e-16, w: 0.8591802}
+        inSlope: {x: -8.4150013e-16, y: -1.4186175, z: 6.2741e-16, w: 0.7812395}
+        outSlope: {x: -8.4150013e-16, y: -1.4186175, z: 6.2741e-16, w: 0.7812395}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -4.0471652e-16, y: 0.45256415, z: -5.062339e-16, w: 0.89173186}
+        inSlope: {x: -4.2075006e-16, y: -0.70930874, z: 3.13705e-16, w: 0.39061975}
+        outSlope: {x: -4.2075006e-16, y: -0.70930874, z: 3.13705e-16, w: 0.39061975}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -3.3313012e-16, y: -0.115973376, z: -5.6385104e-16, w: 0.99325234}
+        inSlope: {x: -0.37326175, y: 0.35128838, z: 0.22958352, w: 0.03437519}
+        outSlope: {x: -0.37326175, y: 0.35128838, z: 0.22958352, w: 0.03437519}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.015552573, y: -0.10133636, z: 0.00956598, w: 0.99468464}
+        inSlope: {x: -0.18663087, y: 0.17564419, z: 0.11479176, w: 0.017187595}
+        outSlope: {x: -0.18663087, y: 0.17564419, z: 0.11479176, w: 0.017187595}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt/War_Thog_r_FrontLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 4.2282342e-16, y: 0.7071068, z: -4.2282342e-16, w: 0.7071068}
+        inSlope: {x: -0.0000003596427, y: -0.000002861023, z: 0.00000035964263, w: 0.0000014305115}
+        outSlope: {x: -0.0000003596427, y: -0.000002861023, z: 0.00000035964263, w: 0.0000014305115}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.000000014985114, y: 0.7071067, z: 0.00000001498511, w: 0.7071069}
+        inSlope: {x: -0.00000017982136, y: -0.0000014305115, z: 0.00000017982131, w: 0.00000071525574}
+        outSlope: {x: -0.00000017982136, y: -0.0000014305115, z: 0.00000017982131, w: 0.00000071525574}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt/War_Thog_r_FrontLeg_AnkleSHJnt/War_Thog_r_FrontLeg_BallSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.45592758, y: -0.45592758, z: 0.5404906, w: 0.5404906}
+        inSlope: {x: 1.1916661, y: 1.1916661, z: 0.9180007, w: 0.9180007}
+        outSlope: {x: 1.1916661, y: 1.1916661, z: 0.9180007, w: 0.9180007}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.40627483, y: -0.40627483, z: 0.57874066, w: 0.57874066}
+        inSlope: {x: 0.59583306, y: 0.59583306, z: 0.45900035, w: 0.45900035}
+        outSlope: {x: 0.59583306, y: 0.59583306, z: 0.45900035, w: 0.45900035}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0597951, y: -0.0597951, z: -0.70457405, w: 0.70457405}
+        inSlope: {x: 0.55216265, y: 0.55216265, z: -0.037802696, w: 0.037802696}
+        outSlope: {x: 0.55216265, y: 0.55216265, z: -0.037802696, w: 0.037802696}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.036788322, y: -0.036788322, z: -0.70614916, w: 0.70614916}
+        inSlope: {x: 0.27608132, y: 0.27608132, z: -0.018901348, w: 0.018901348}
+        outSlope: {x: 0.27608132, y: 0.27608132, z: -0.018901348, w: 0.018901348}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.15130463, y: 0.15130463, z: 0.69072926, w: 0.69072926}
+        inSlope: {x: -4.176776, y: -4.176776, z: 0.3842926, w: 0.3842926}
+        outSlope: {x: -4.176776, y: -4.176776, z: 0.3842926, w: 0.3842926}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.022727717, y: -0.022727717, z: 0.70674145, w: 0.70674145}
+        inSlope: {x: -2.088388, y: -2.088388, z: 0.1921463, w: 0.1921463}
+        outSlope: {x: -2.088388, y: -2.088388, z: 0.1921463, w: 0.1921463}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_JawSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -4.0965094e-17, y: 6.059126e-17, z: 0.7071068, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -4.0965094e-17, y: 6.059126e-17, z: 0.7071068, w: 0.7071068}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Eye_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Eye_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.0415185e-17, y: 7.239449e-17, z: -0.32762358, w: 0.94480836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -1.0415185e-17, y: 7.239449e-17, z: -0.32762358, w: 0.94480836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Ear_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Ear_01_01SHJnt/War_Thog_l_Ear_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 3.6638887e-17, y: 6.33011e-17, z: 0.32762358, w: 0.94480836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 3.6638887e-17, y: 6.33011e-17, z: 0.32762358, w: 0.94480836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Ear_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Ear_01_01SHJnt/War_Thog_r_Ear_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13304804, y: 0.13304804, z: 0.69447696, w: 0.69447696}
+        inSlope: {x: -0.13843167, y: 0.13843167, z: -0.027118206, w: -0.027118206}
+        outSlope: {x: -0.13843167, y: 0.13843167, z: -0.027118206, w: -0.027118206}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.13881603, y: 0.13881603, z: 0.69334704, w: 0.69334704}
+        inSlope: {x: -0.069215834, y: 0.069215834, z: -0.013559103, w: -0.013559103}
+        outSlope: {x: -0.069215834, y: 0.069215834, z: -0.013559103, w: -0.013559103}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.0120145e-17, y: -0.4955672, z: -1.7737353e-17, w: 0.8685696}
+        inSlope: {x: -6.990285e-18, y: -0.3423028, z: 4.0651626e-18, w: -0.19906425}
+        outSlope: {x: -6.990285e-18, y: -0.3423028, z: 4.0651626e-18, w: -0.19906425}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -1.0411407e-17, y: -0.5098298, z: -1.7567971e-17, w: 0.86027527}
+        inSlope: {x: -3.4951425e-18, y: -0.1711514, z: 2.0325813e-18, w: -0.09953213}
+        outSlope: {x: -3.4951425e-18, y: -0.1711514, z: 2.0325813e-18, w: -0.09953213}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.94162e-17, y: 0.23766114, z: 4.97357e-17, w: 0.97134817}
+        inSlope: {x: -8.971786e-18, y: 0.17480278, z: 3.4635177e-18, w: -0.04346609}
+        outSlope: {x: -8.971786e-18, y: 0.17480278, z: 3.4635177e-18, w: -0.04346609}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1.9042376e-17, y: 0.24494459, z: 4.9880013e-17, w: 0.9695371}
+        inSlope: {x: -4.485893e-18, y: 0.08740139, z: 1.7317589e-18, w: -0.021733046}
+        outSlope: {x: -4.485893e-18, y: 0.08740139, z: 1.7317589e-18, w: -0.021733046}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt/War_Thog_l_HindLeg_Knee2SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -2.0666352e-19, y: 0.08912523, z: 2.3095714e-18, w: 0.99602044}
+        inSlope: {x: -3.778954e-20, y: 0.016296923, z: -3.3947492e-21, w: -0.0014634132}
+        outSlope: {x: -3.778954e-20, y: 0.016296923, z: -3.3947492e-21, w: -0.0014634132}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -2.0823808e-19, y: 0.08980427, z: 2.30943e-18, w: 0.99595946}
+        inSlope: {x: -1.889477e-20, y: 0.008148462, z: -1.6973746e-21, w: -0.0007317066}
+        outSlope: {x: -1.889477e-20, y: 0.008148462, z: -1.6973746e-21, w: -0.0007317066}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt/War_Thog_l_HindLeg_Knee2SHJnt/War_Thog_l_HindLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13304804, y: 0.13304804, z: 0.69447696, w: 0.69447696}
+        inSlope: {x: -0.13843167, y: 0.13843167, z: -0.027118206, w: -0.027118206}
+        outSlope: {x: -0.13843167, y: 0.13843167, z: -0.027118206, w: -0.027118206}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.13881603, y: 0.13881603, z: 0.69334704, w: 0.69334704}
+        inSlope: {x: -0.069215834, y: 0.069215834, z: -0.013559103, w: -0.013559103}
+        outSlope: {x: -0.069215834, y: 0.069215834, z: -0.013559103, w: -0.013559103}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 2.9367883e-17, y: -0.4955672, z: 5.826975e-17, w: 0.8685696}
+        inSlope: {x: 2.2976775e-17, y: -0.3423028, z: -1.1818968e-17, w: -0.19906425}
+        outSlope: {x: 2.2976775e-17, y: -0.3423028, z: -1.1818968e-17, w: -0.19906425}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 3.032525e-17, y: -0.5098298, z: 5.7777295e-17, w: 0.86027527}
+        inSlope: {x: 1.1488387e-17, y: -0.1711514, z: -5.909484e-18, w: -0.09953213}
+        outSlope: {x: 1.1488387e-17, y: -0.1711514, z: -5.909484e-18, w: -0.09953213}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 2.9939766e-17, y: 0.23766114, z: 5.5389026e-17, w: 0.97134817}
+        inSlope: {x: -9.997239e-18, y: 0.17480278, z: 5.355366e-18, w: -0.04346609}
+        outSlope: {x: -9.997239e-18, y: 0.17480278, z: 5.355366e-18, w: -0.04346609}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 2.9523214e-17, y: 0.24494459, z: 5.5612167e-17, w: 0.9695371}
+        inSlope: {x: -4.9986194e-18, y: 0.08740139, z: 2.677683e-18, w: -0.021733046}
+        outSlope: {x: -4.9986194e-18, y: 0.08740139, z: 2.677683e-18, w: -0.021733046}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt/War_Thog_r_HindLeg_Knee2SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.7749693e-17, y: 0.08912523, z: 6.228952e-17, w: 0.99602044}
+        inSlope: {x: -1.0192983e-18, y: 0.016296923, z: 2.900029e-19, w: -0.0014634132}
+        outSlope: {x: -1.0192983e-18, y: 0.016296923, z: 2.900029e-19, w: -0.0014634132}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1.7707222e-17, y: 0.08980427, z: 6.23016e-17, w: 0.99595946}
+        inSlope: {x: -5.0964914e-19, y: 0.008148462, z: 1.4500145e-19, w: -0.0007317066}
+        outSlope: {x: -5.0964914e-19, y: 0.008148462, z: 1.4500145e-19, w: -0.0007317066}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt/War_Thog_r_HindLeg_Knee2SHJnt/War_Thog_r_HindLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.005224111, y: -0.7070875, z: 0.005224111, w: 0.7070875}
+        inSlope: {x: -11.640564, y: 5.017267, z: 6.309677, w: -1.0552511}
+        outSlope: {x: -11.640564, y: 5.017267, z: 6.309677, w: -1.0552511}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.4902476, y: -0.49803472, z: 0.26812732, w: 0.6631187}
+        inSlope: {x: -5.820282, y: 2.5086336, z: 3.1548386, w: -0.52762556}
+        outSlope: {x: -5.820282, y: 2.5086336, z: 3.1548386, w: -0.52762556}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: -0.7449835, y: 2.8595967, z: 3.7391696, w: -0.47796106}
+        outSlope: {x: -0.7449835, y: 2.8595967, z: 3.7391696, w: -0.47796106}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.03104098, y: 0.11914987, z: 0.15579873, w: 0.98008496}
+        inSlope: {x: -0.37249175, y: 1.4297984, z: 1.8695848, w: -0.23898053}
+        outSlope: {x: -0.37249175, y: 1.4297984, z: 1.8695848, w: -0.23898053}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: -0.3297987, y: 2.2971082, z: -2.049383, w: -0.20053339}
+        outSlope: {x: -0.3297987, y: 2.2971082, z: -2.049383, w: -0.20053339}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.013741613, y: 0.09571284, z: -0.08539096, w: 0.99164444}
+        inSlope: {x: -0.16489935, y: 1.1485541, z: -1.0246915, w: -0.100266695}
+        outSlope: {x: -0.16489935, y: 1.1485541, z: -1.0246915, w: -0.100266695}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: -0.82055247, y: 2.166404, z: -2.0539792, w: -0.20053339}
+        outSlope: {x: -0.82055247, y: 2.166404, z: -2.0539792, w: -0.20053339}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.034189686, y: 0.09026684, z: -0.085582465, w: 0.99164444}
+        inSlope: {x: -0.41027623, y: 1.083202, z: -1.0269896, w: -0.100266695}
+        outSlope: {x: -0.41027623, y: 1.083202, z: -1.0269896, w: -0.100266695}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: -1.2805126, y: 1.952013, z: -2.0335624, w: -0.20053339}
+        outSlope: {x: -1.2805126, y: 1.952013, z: -2.0335624, w: -0.20053339}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.05335469, y: 0.081333876, z: -0.08473177, w: 0.99164444}
+        inSlope: {x: -0.6402563, y: 0.9760065, z: -1.0167812, w: -0.100266695}
+        outSlope: {x: -0.6402563, y: 0.9760065, z: -1.0167812, w: -0.100266695}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt/War_Thog_Tail_01_05SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: -1.6943845, y: 1.6610638, z: -1.988812, w: -0.20053339}
+        outSlope: {x: -1.6943845, y: 1.6610638, z: -1.988812, w: -0.20053339}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.070599355, y: 0.06921099, z: -0.08286717, w: 0.99164444}
+        inSlope: {x: -0.8471922, y: 0.8305319, z: -0.994406, w: -0.100266695}
+        outSlope: {x: -0.8471922, y: 0.8305319, z: -0.994406, w: -0.100266695}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt/War_Thog_Tail_01_05SHJnt/War_Thog_Tail_01_06SHJnt
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: -0, y: -0, z: -0}
+        outSlope: {x: -0, y: -0, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0.62357897, z: -0.41636515}
+        inSlope: {x: -0, y: -0.000005041254, z: -3.5527137e-15}
+        outSlope: {x: -0, y: -0.000005041254, z: -3.5527137e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0, y: 0.6198636, z: -0.41636515}
+        inSlope: {x: -0, y: -0.000005041254, z: -1.5225916e-15}
+        outSlope: {x: -0, y: 4.567774e-15, z: -3.5527137e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 7.093146e-17, y: -0.0073036454, z: 0.17576353}
+        inSlope: {x: 0.000000023591586, y: 0.000000007838364, z: -0.000003749267}
+        outSlope: {x: 0.000000023591586, y: 0.000000007838364, z: -0.000003749267}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.0025408906, y: -0.0047650374, z: 0.17575529}
+        inSlope: {x: 0.00000003210654, y: -0.000000026221432, z: -0.000003749267}
+        outSlope: {x: -2.7755576e-17, y: -2.7755576e-17, z: 3.5527137e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.1451954e-18, y: 0.17585628, z: 0.004769832}
+        inSlope: {x: -0.000000020472443, y: 0.0000016134613, z: 0.000000025865528}
+        outSlope: {x: -0.000000020472443, y: 0.0000016134613, z: 0.000000025865528}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.0024390756, y: 0.17576557, z: 0.004139553}
+        inSlope: {x: -0.000000033244866, y: 0.0000016134613, z: 0.000000025865528}
+        outSlope: {x: 2.7755576e-17, y: 1.7763568e-15, z: 4.7580987e-17}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.4071772e-16, y: 0.1757972, z: 0.0065975017}
+        inSlope: {x: -0.000000004501549, y: 0.0000014394351, z: -0.000000024189776}
+        outSlope: {x: -0.000000004501549, y: 0.0000014394351, z: -0.000000024189776}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.0017036942, y: 0.1756226, z: 0.006519842}
+        inSlope: {x: 0.000000004013416, y: 0.0000014394351, z: -0.000000024189776}
+        outSlope: {x: 1.3877788e-17, y: -0, z: 5.551115e-17}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -7.2071525e-17, y: 0.17574075, z: 0.00783213}
+        inSlope: {x: -0.000000007539858, y: 0.00000078514364, z: 0.000000021126995}
+        outSlope: {x: -0.000000007539858, y: 0.00000078514364, z: 0.000000021126995}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.0019255672, y: 0.17564617, z: 0.0054488657}
+        inSlope: {x: -0.0000000032823912, y: 0.00000078514364, z: 0.000000021126995}
+        outSlope: {x: 1.3877788e-17, y: 2.6645353e-15, z: 2.7755576e-17}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0658141e-16, y: -0.061803903, z: -2.842171e-16}
+        inSlope: {x: -1.7594085e-21, y: -1.3322676e-15, z: 7.037634e-21}
+        outSlope: {x: -1.7594085e-21, y: -1.3322676e-15, z: 7.037634e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1.4210854e-16, y: -0.061803903, z: -4.2632563e-16}
+        inSlope: {x: -1.7594085e-21, y: -5.709719e-16, z: 7.037634e-21}
+        outSlope: {x: 1.5777218e-30, y: -1.3322676e-15, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.110107906, y: -0.052853797, z: 0.1651965}
+        inSlope: {x: -1.7763568e-15, y: -4.440892e-16, z: 1.7763568e-15}
+        outSlope: {x: -1.7763568e-15, y: -4.440892e-16, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.110107906, y: -0.052853797, z: 0.1651965}
+        inSlope: {x: -7.612958e-16, y: -1.9032395e-16, z: 7.612958e-16}
+        outSlope: {x: -1.7763568e-15, y: -4.440892e-16, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.15204327, y: -1.2434498e-16, z: -8.881784e-18}
+        inSlope: {x: -2.6645353e-15, y: 7.729781e-21, z: 3.055368e-23}
+        outSlope: {x: -2.6645353e-15, y: 7.729781e-21, z: 3.055368e-23}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.15204327, y: -9.05942e-16, z: 1.5543122e-16}
+        inSlope: {x: -1.1419438e-15, y: 1.160193e-20, z: 3.0553678e-23}
+        outSlope: {x: -2.6645353e-15, y: -1.2621775e-29, z: 1.8031105e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.20671564, y: -1.0658141e-16, z: -1.4210854e-16}
+        inSlope: {x: -1.7763568e-15, y: -1.827171e-21, z: -6.5342543e-22}
+        outSlope: {x: -1.7763568e-15, y: -1.827171e-21, z: -6.5342543e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.20671564, y: -1.3500312e-15, z: 2.1316282e-16}
+        inSlope: {x: -7.612958e-16, y: -5.6993213e-21, z: -6.5342543e-22}
+        outSlope: {x: -1.7763568e-15, y: -1.2621775e-29, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt/War_Thog_l_FrontLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.04957039, y: -1.7763568e-17, z: 0.0072884606}
+        inSlope: {x: -5.075305e-16, y: 1.9239744e-22, z: 1.110223e-16}
+        outSlope: {x: -5.075305e-16, y: 1.9239744e-22, z: 1.110223e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.04957039, y: -3.1974422e-16, z: 0.0072884606}
+        inSlope: {x: 5.075305e-16, y: -1.7436777e-21, z: 4.7580987e-17}
+        outSlope: {x: -5.075305e-16, y: -4.7331654e-30, z: 1.110223e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt/War_Thog_l_FrontLeg_AnkleSHJnt/War_Thog_l_FrontLeg_BallSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.7763567e-16, y: 0.061803903, z: 1.4210854e-16}
+        inSlope: {x: 6.6068567e-22, y: 1.3322676e-15, z: 3.3155289e-22}
+        outSlope: {x: 6.6068567e-22, y: 1.3322676e-15, z: 3.3155289e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 2.1316282e-16, y: 0.061803903, z: -7.105427e-17}
+        inSlope: {x: 6.6068567e-22, y: 5.709719e-16, z: -3.944753e-22}
+        outSlope: {x: -0, y: 1.3322676e-15, z: -7.888609e-31}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.110107906, y: -0.052853797, z: 0.1651965}
+        inSlope: {x: 1.7763568e-15, y: -4.440892e-16, z: 1.7763568e-15}
+        outSlope: {x: 1.7763568e-15, y: -4.440892e-16, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.110107906, y: -0.052853797, z: 0.1651965}
+        inSlope: {x: 7.612958e-16, y: -1.9032395e-16, z: 7.612958e-16}
+        outSlope: {x: 1.7763568e-15, y: -4.440892e-16, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.15204327, y: 7.105427e-17, z: -7.9936054e-17}
+        inSlope: {x: -2.6645353e-15, y: -1.9094542e-21, z: -7.001445e-22}
+        outSlope: {x: -2.6645353e-15, y: -1.9094542e-21, z: -7.001445e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.15204327, y: 3.1974422e-16, z: -3.7470028e-17}
+        inSlope: {x: -1.1419438e-15, y: -9.414167e-22, z: -2.1612575e-22}
+        outSlope: {x: -2.6645353e-15, y: 4.7331654e-30, z: -1.9721523e-31}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.20671564, y: 1.4210854e-16, z: 7.105427e-17}
+        inSlope: {x: -1.7763568e-15, y: -3.3118987e-21, z: 1.2995905e-21}
+        outSlope: {x: -1.7763568e-15, y: -3.3118987e-21, z: 1.2995905e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.20671564, y: 6.9277914e-16, z: -1.4210854e-16}
+        inSlope: {x: -7.612958e-16, y: -5.247974e-21, z: 1.0575811e-21}
+        outSlope: {x: -1.7763568e-15, y: 1.17202196e-29, z: -1.5777218e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt/War_Thog_r_FrontLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.04957039, y: 1.7763568e-17, z: 0.0072884606}
+        inSlope: {x: -5.075305e-16, y: -8.990651e-22, z: 1.110223e-16}
+        outSlope: {x: -5.075305e-16, y: -8.990651e-22, z: 1.110223e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.04957039, y: 1.7763567e-16, z: 0.0072884606}
+        inSlope: {x: 5.075305e-16, y: -2.8351403e-21, z: 4.7580987e-17}
+        outSlope: {x: -5.075305e-16, y: 3.1554436e-30, z: 1.110223e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt/War_Thog_r_FrontLeg_AnkleSHJnt/War_Thog_r_FrontLeg_BallSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13295817, y: 7.395687e-17, z: -0.034138177}
+        inSlope: {x: -0.00000076299386, y: -1.0329768e-21, z: 0.00000008713714}
+        outSlope: {x: -0.00000076299386, y: -1.0329768e-21, z: 0.00000008713714}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.1329455, y: 1.1615708e-16, z: -0.034125146}
+        inSlope: {x: -0.00000076299386, y: -1.0329768e-21, z: 0.00000008713714}
+        outSlope: {x: -1.7763568e-15, y: -0, z: -8.881784e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 2.3820239e-17, y: 0.056056093, z: 0.12530366}
+        inSlope: {x: 2.9070913e-22, y: 0.00000007363876, z: -0.00000046143373}
+        outSlope: {x: 2.9070913e-22, y: 0.00000007363876, z: -0.00000046143373}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -5.745404e-17, y: 0.04778591, z: 0.12869854}
+        inSlope: {x: 2.9070913e-22, y: 0.0000006185955, z: 0.00000062847965}
+        outSlope: {x: -7.888609e-31, y: 5.075305e-16, z: 2.6645353e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.1408762, y: -3.8932268e-17, z: 0.15287985}
+        inSlope: {x: -0, y: -1.3206343e-22, z: 8.881784e-16}
+        outSlope: {x: -0, y: -1.3206343e-22, z: 8.881784e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.1408762, y: 1.6653344e-17, z: 0.15287985}
+        inSlope: {x: -0, y: -1.3206343e-22, z: 3.806479e-16}
+        outSlope: {x: -0, y: 2.9582284e-31, z: 8.881784e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_JawSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.19166155, y: 6.738538e-17, z: 2.1316282e-16}
+        inSlope: {x: -3.5527137e-15, y: 6.309494e-22, z: -1.9167144e-21}
+        outSlope: {x: -3.5527137e-15, y: 6.309494e-22, z: -1.9167144e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.19166155, y: -2.7755576e-17, z: 7.105427e-17}
+        inSlope: {x: -1.5225916e-15, y: 6.309494e-22, z: -9.486769e-22}
+        outSlope: {x: -3.5527137e-15, y: -5.916457e-31, z: 7.888609e-31}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.083723515, y: -0.11737352, z: 0.13816209}
+        inSlope: {x: -4.440892e-16, y: -2.6645353e-15, z: 1.7763568e-15}
+        outSlope: {x: -4.440892e-16, y: -2.6645353e-15, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.083723515, y: -0.11737352, z: 0.13816209}
+        inSlope: {x: -1.9032395e-16, y: -1.1419438e-15, z: 7.612958e-16}
+        outSlope: {x: -4.440892e-16, y: -2.6645353e-15, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Eye_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.083723515, y: -0.11737352, z: 0.13816209}
+        inSlope: {x: 4.440892e-16, y: -2.6645353e-15, z: 1.7763568e-15}
+        outSlope: {x: 4.440892e-16, y: -2.6645353e-15, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.083723515, y: -0.11737352, z: 0.13816209}
+        inSlope: {x: 1.9032395e-16, y: -1.1419438e-15, z: 7.612958e-16}
+        outSlope: {x: 4.440892e-16, y: -2.6645353e-15, z: 1.7763568e-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Eye_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.101346254, y: -0.060425, z: -2.842171e-16}
+        inSlope: {x: -8.881784e-16, y: -1.3322676e-15, z: 2.6427427e-21}
+        outSlope: {x: -8.881784e-16, y: -1.3322676e-15, z: 2.6427427e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.101346254, y: -0.060425, z: -1.4210854e-16}
+        inSlope: {x: -3.806479e-16, y: -5.709719e-16, z: 2.6427427e-21}
+        outSlope: {x: -8.881784e-16, y: -1.3322676e-15, z: -1.5777218e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Ear_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.04813689, y: -0.0007130672, z: 4.2632563e-16}
+        inSlope: {x: -5.075305e-16, y: -3.469447e-18, z: -2.5120575e-21}
+        outSlope: {x: -5.075305e-16, y: -3.469447e-18, z: -2.5120575e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.04813689, y: -0.0007130672, z: 2.1316282e-16}
+        inSlope: {x: 5.075305e-16, y: -1.4869059e-18, z: -5.7598246e-22}
+        outSlope: {x: -5.075305e-16, y: -3.469447e-18, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Ear_01_01SHJnt/War_Thog_l_Ear_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.101346254, y: -0.060425, z: -2.842171e-16}
+        inSlope: {x: 8.881784e-16, y: -1.3322676e-15, z: -8.76074e-22}
+        outSlope: {x: 8.881784e-16, y: -1.3322676e-15, z: -8.76074e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.101346254, y: -0.060425, z: -7.105427e-17}
+        inSlope: {x: 3.806479e-16, y: -5.709719e-16, z: -8.76074e-22}
+        outSlope: {x: 8.881784e-16, y: -1.3322676e-15, z: -7.888609e-31}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Ear_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.04813689, y: -0.0007130672, z: 2.1316282e-16}
+        inSlope: {x: 5.075305e-16, y: -3.469447e-18, z: 3.518817e-21}
+        outSlope: {x: 5.075305e-16, y: -3.469447e-18, z: 3.518817e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.04813689, y: -0.0007130672, z: 1.4210854e-16}
+        inSlope: {x: -5.075305e-16, y: -1.4869059e-18, z: 3.518817e-21}
+        outSlope: {x: 5.075305e-16, y: -3.469447e-18, z: 1.5777218e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Ear_01_01SHJnt/War_Thog_r_Ear_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.12777436, y: -0.06388718, z: 0.03231393}
+        inSlope: {x: -1.7763568e-15, y: -8.881784e-16, z: 5.075305e-16}
+        outSlope: {x: -1.7763568e-15, y: -8.881784e-16, z: 5.075305e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.12777436, y: -0.06388718, z: 0.03231393}
+        inSlope: {x: -7.612958e-16, y: -3.806479e-16, z: -5.075305e-16}
+        outSlope: {x: -1.7763568e-15, y: -8.881784e-16, z: 5.075305e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.20660621, y: -3.5527136e-17, z: 5.3290704e-17}
+        inSlope: {x: -3.5527137e-15, y: -3.9443045e-31, z: -8.797043e-22}
+        outSlope: {x: -3.5527137e-15, y: -3.9443045e-31, z: -8.797043e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.20660621, y: -3.5527136e-17, z: 7.105427e-17}
+        inSlope: {x: -1.5225916e-15, y: -1.6904162e-31, z: -8.797043e-22}
+        outSlope: {x: -3.5527137e-15, y: -3.9443045e-31, z: 7.888609e-31}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.23652738, y: -8.8817837e-17, z: 2.842171e-16}
+        inSlope: {x: -3.5527137e-15, y: 3.3034284e-22, z: -8.2283165e-23}
+        outSlope: {x: -3.5527137e-15, y: 3.3034284e-22, z: -8.2283165e-23}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.23652738, y: -7.105427e-17, z: 0}
+        inSlope: {x: -1.5225916e-15, y: 3.3034284e-22, z: 4.0173563e-22}
+        outSlope: {x: -3.5527137e-15, y: -7.888609e-31, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt/War_Thog_l_HindLeg_Knee2SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.10209439, y: -3.5527136e-17, z: -1.0828671e-13}
+        inSlope: {x: -8.881784e-16, y: -8.288822e-23, z: 1.3816801e-19}
+        outSlope: {x: -8.881784e-16, y: -8.288822e-23, z: 1.3816801e-19}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.10209439, y: 1.7763568e-17, z: -1.081446e-13}
+        inSlope: {x: -3.806479e-16, y: 9.861883e-23, z: 1.3816801e-19}
+        outSlope: {x: -8.881784e-16, y: 1.9721523e-31, z: -1.6155871e-27}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt/War_Thog_l_HindLeg_Knee2SHJnt/War_Thog_l_HindLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.12777436, y: -0.06388718, z: 0.03231393}
+        inSlope: {x: 1.7763568e-15, y: -8.881784e-16, z: 5.075305e-16}
+        outSlope: {x: 1.7763568e-15, y: -8.881784e-16, z: 5.075305e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 0.12777436, y: -0.06388718, z: 0.03231393}
+        inSlope: {x: 7.612958e-16, y: -3.806479e-16, z: -5.075305e-16}
+        outSlope: {x: 1.7763568e-15, y: -8.881784e-16, z: 5.075305e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.20660621, y: -1.0658141e-16, z: 5.3290704e-17}
+        inSlope: {x: -3.5527137e-15, y: 6.2801436e-22, z: -6.534257e-23}
+        outSlope: {x: -3.5527137e-15, y: 6.2801436e-22, z: -6.534257e-23}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.20660621, y: -5.3290704e-17, z: 8.8817837e-17}
+        inSlope: {x: -1.5225916e-15, y: 1.4399562e-22, z: -1.0333802e-21}
+        outSlope: {x: -3.5527137e-15, y: -0, z: 1.5777218e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.23652738, y: -1.4210854e-16, z: 0}
+        inSlope: {x: -3.5527137e-15, y: 9.910285e-22, z: -0}
+        outSlope: {x: -3.5527137e-15, y: 9.910285e-22, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.23652738, y: -8.8817837e-17, z: 0}
+        inSlope: {x: -1.5225916e-15, y: 9.910285e-22, z: -0}
+        outSlope: {x: -3.5527137e-15, y: -1.5777218e-30, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt/War_Thog_r_HindLeg_Knee2SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.10209439, y: -1.7763568e-17, z: -1.08215655e-13}
+        inSlope: {x: -8.881784e-16, y: -1.9721523e-31, z: -2.4233807e-27}
+        outSlope: {x: -8.881784e-16, y: -1.9721523e-31, z: -2.4233807e-27}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.10209439, y: -1.7763568e-17, z: -1.08215655e-13}
+        inSlope: {x: -3.806479e-16, y: -8.452081e-32, z: -1.0385918e-27}
+        outSlope: {x: -8.881784e-16, y: -1.9721523e-31, z: -2.4233807e-27}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt/War_Thog_r_HindLeg_Knee2SHJnt/War_Thog_r_HindLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -3.1652925e-16, y: 0.0094791, z: -0.07355711}
+        inSlope: {x: -4.959851e-21, y: 5.551115e-17, z: -4.440892e-16}
+        outSlope: {x: -4.959851e-21, y: 5.551115e-17, z: -4.440892e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -2.9766858e-16, y: 0.0094791, z: -0.07355711}
+        inSlope: {x: -4.959851e-21, y: 2.3790494e-17, z: -1.9032395e-16}
+        outSlope: {x: -3.1554436e-30, y: 5.551115e-17, z: -4.440892e-16}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07374445, y: -0.0037050284, z: 1.8178611e-18}
+        inSlope: {x: -7.612958e-16, y: -2.7755576e-17, z: 1.1060703e-21}
+        outSlope: {x: -7.612958e-16, y: -2.7755576e-17, z: 1.1060703e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.07374445, y: -0.0037050284, z: -3.907985e-16}
+        inSlope: {x: -1.7763568e-15, y: -1.1895247e-17, z: 3.0441425e-22}
+        outSlope: {x: -7.612958e-16, y: -2.7755576e-17, z: -3.1554436e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.08838245, y: -0.004697545, z: -1.8359748e-17}
+        inSlope: {x: -8.881784e-16, y: -2.7755576e-17, z: 7.457381e-21}
+        outSlope: {x: -8.881784e-16, y: -2.7755576e-17, z: 7.457381e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.08838245, y: -0.004697545, z: -8.5265126e-16}
+        inSlope: {x: -3.806479e-16, y: -1.1895247e-17, z: 1.0845513e-20}
+        outSlope: {x: -8.881784e-16, y: -2.7755576e-17, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.061500225, y: 0.0027662972, z: -2.327326e-17}
+        inSlope: {x: -4.440892e-16, y: 1.3877788e-17, z: -2.8864534e-22}
+        outSlope: {x: -4.440892e-16, y: 1.3877788e-17, z: -2.8864534e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.061500225, y: 0.0027662972, z: -2.842171e-16}
+        inSlope: {x: -1.9032395e-16, y: 5.9476234e-18, z: -7.726641e-22}
+        outSlope: {x: -4.440892e-16, y: 1.3877788e-17, z: -3.1554436e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.06388718, y: 4.1211477e-15, z: -7.105291e-18}
+        inSlope: {x: -8.881784e-16, y: -5.2365997e-20, z: 2.9438031e-21}
+        outSlope: {x: -8.881784e-16, y: -5.2365997e-20, z: 2.9438031e-21}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.06388718, y: 3.907985e-15, z: -3.5527135e-16}
+        inSlope: {x: -3.806479e-16, y: -5.2365997e-20, z: 5.121888e-21}
+        outSlope: {x: -8.881784e-16, y: 2.524355e-29, z: -6.3108872e-30}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt/War_Thog_Tail_01_05SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.06388718, y: 4.0500935e-15, z: -2.9607183e-17}
+        inSlope: {x: -8.881784e-16, y: -4.400699e-20, z: 5.9654793e-22}
+        outSlope: {x: -8.881784e-16, y: -4.400699e-20, z: 5.9654793e-22}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: -0.06388718, y: 3.7658763e-15, z: -2.1316282e-16}
+        inSlope: {x: -3.806479e-16, y: -4.400699e-20, z: 3.5453848e-22}
+        outSlope: {x: -8.881784e-16, y: 5.04871e-29, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt/War_Thog_Tail_01_05SHJnt/War_Thog_Tail_01_06SHJnt
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt/War_Thog_l_FrontLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_l_Clavicle_01_01SHJnt/War_Thog_l_FrontLeg_HipSHJnt/War_Thog_l_FrontLeg_KneeSHJnt/War_Thog_l_FrontLeg_AnkleSHJnt/War_Thog_l_FrontLeg_BallSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt/War_Thog_r_FrontLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_r_Clavicle_01_01SHJnt/War_Thog_r_FrontLeg_HipSHJnt/War_Thog_r_FrontLeg_KneeSHJnt/War_Thog_r_FrontLeg_AnkleSHJnt/War_Thog_r_FrontLeg_BallSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_JawSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Eye_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Eye_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Ear_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_l_Ear_01_01SHJnt/War_Thog_l_Ear_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Ear_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Spine_01SHJnt/War_Thog_Spine_02SHJnt/War_Thog_Spine_03SHJnt/War_Thog_Spine_TopSHJnt/War_Thog_Neck_01SHJnt/War_Thog_Neck_TopSHJnt/War_Thog_Head_TopSHJnt/War_Thog_r_Ear_01_01SHJnt/War_Thog_r_Ear_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt/War_Thog_l_HindLeg_Knee2SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_l_HindLeg_HipSHJnt/War_Thog_l_HindLeg_Knee1SHJnt/War_Thog_l_HindLeg_Knee2SHJnt/War_Thog_l_HindLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt/War_Thog_r_HindLeg_Knee2SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_r_HindLeg_HipSHJnt/War_Thog_r_HindLeg_Knee1SHJnt/War_Thog_r_HindLeg_Knee2SHJnt/War_Thog_r_HindLeg_AnkleSHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt/War_Thog_Tail_01_05SHJnt
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.041666668
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: RootMotion/War_Thog_ROOTSHJnt/War_Thog_Tail_01_01SHJnt/War_Thog_Tail_01_02SHJnt/War_Thog_Tail_01_03SHJnt/War_Thog_Tail_01_04SHJnt/War_Thog_Tail_01_05SHJnt/War_Thog_Tail_01_06SHJnt
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootT.x
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootT.y
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootT.z
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootQ.x
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootQ.y
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootQ.z
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.041666668
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: RootQ.w
+    path: 
+    classID: 95
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.041666668
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 0
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []
