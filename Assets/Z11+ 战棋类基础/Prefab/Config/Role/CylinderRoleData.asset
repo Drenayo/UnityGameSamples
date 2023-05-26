@@ -19,5 +19,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 113e07b6019fff24fba2cba6ea3a372c, type: 2}
   - {fileID: 11400000, guid: a5162716b9ddf684fa3b1e0ce7391cd1, type: 2}
   - {fileID: 11400000, guid: 6ba97a6d0b1adab47b4673dc627344b6, type: 2}
-  hp: 9
+  hp: 10
   maxhp: 10

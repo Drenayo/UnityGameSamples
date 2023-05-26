@@ -18,5 +18,5 @@ MonoBehaviour:
   skillList:
   - {fileID: 11400000, guid: 113e07b6019fff24fba2cba6ea3a372c, type: 2}
   - {fileID: 11400000, guid: ea9f4b4315bb37c458e7967abf6a38d8, type: 2}
-  hp: 0
+  hp: 9
   maxhp: 10
