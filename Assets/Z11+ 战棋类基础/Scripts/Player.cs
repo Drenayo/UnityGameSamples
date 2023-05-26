@@ -5,11 +5,32 @@ using UnityEngine;
 
 namespace Z11
 {
-    public class Player : MonoBehaviour
+    public enum PlayerState
     {
+        // 游览，未选中任何角色
+        Visit,
+
+        // 正在选择创建角色
+        ChosseRole,
+
+        // 选中角色状态
+        Selected,
+
+        // 正在选择使用技能
+        ChooseSkill,
+    }
+
+    public class Player : SingletonMonoBase<Player>
+    {
+        public PlayerState playerState;
         public Cell currHoverCell = null;
         public Role currHoverRole = null;
         public Role currSelectRole = null;
+
+        private void Start()
+        {
+            playerState = PlayerState.Visit;
+        }
 
         void Update()
         {
@@ -84,8 +105,12 @@ namespace Z11
         {
             if (currHoverCell && Input.GetKey(KeyCode.LeftAlt) && Input.GetKeyDown(KeyCode.Mouse0))
             {
-                if (!currHoverCell.currRole)
+                if (!currHoverCell.currRole && playerState != PlayerState.ChosseRole)
+                {
                     RoleManager.Instance.CreateRole(currHoverCell);
+                    playerState = PlayerState.ChosseRole;
+                }
+
             }
         }
 
@@ -106,6 +131,7 @@ namespace Z11
                     }
                     currSelectRole = currHoverRole;
                     currSelectRole.selected = true;
+                    playerState = PlayerState.Selected;
                 }
                 // 点击地面时，清空选择角色
                 if (currHoverCell)
@@ -115,6 +141,7 @@ namespace Z11
                         currSelectRole.selected = false;
                         currSelectRole.SetHighlight(false);
                         currSelectRole = null;
+                        playerState = PlayerState.Visit;
                     }
                 }
             }
@@ -131,6 +158,7 @@ namespace Z11
                 else if (currHoverRole && currSelectRole)
                 {
                     currSelectRole.CastingSkill(currHoverRole);
+                    playerState = PlayerState.ChooseSkill;
                 }
             }
         }

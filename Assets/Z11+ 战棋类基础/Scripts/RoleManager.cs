@@ -80,6 +80,8 @@ namespace Z11
             {
                 Destroy(tran.gameObject);
             }
+
+            Player.Instance.playerState = PlayerState.Selected;
         }
     }
 }

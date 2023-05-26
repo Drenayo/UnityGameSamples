@@ -301,10 +301,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1987212467237251475}
     m_Modifications:
-    - target: {fileID: 1737735614137277223, guid: 89359db8bed14fd418a65c4691be69e7, type: 3}
-      propertyPath: m_FillAmount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2371369470156015566, guid: 89359db8bed14fd418a65c4691be69e7, type: 3}
       propertyPath: m_Name
       value: UI_HP

@@ -54,7 +54,8 @@ namespace Z11
             Debug.Log("受到伤害!");
             if (roleData.hp - value <= 0)
             {
-                Debug.Log("角色死亡");
+
+                Debug.Log("角色死亡" + roleData.hp + "   " + value);
             }
             // 减血
             roleData.hp -= value;
