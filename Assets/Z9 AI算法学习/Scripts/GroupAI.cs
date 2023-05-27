@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace XXX
+namespace Z9
 {
     public class GroupAI : MonoBehaviour
     {
