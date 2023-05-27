@@ -6,30 +6,15 @@ namespace XXX
 {
     public class PhysicalTest : MonoBehaviour
     {
-        public Vector3 boxCenter;
-        public Vector3 boxSize;
-        public Vector3 boxDirection;
+        public BoxCollider boxCollider;
         public float maxDistance;
-        public LayerMask layerMask;
-        void Start()
-        {
-
-        }
-
-
+        RaycastHit hit;
         void Update()
         {
-            RaycastHit hitInfo;
-            if (Physics.BoxCast(boxCenter, boxSize / 2, boxDirection, out hitInfo, Quaternion.identity, maxDistance, layerMask))
+            if (Physics.BoxCast(transform.position, boxCollider.size / 2, transform.forward, out hit, transform.rotation, maxDistance))
             {
-                Debug.Log(hitInfo.collider.name);
+                Debug.Log("碰撞！" + hit.collider.name);
             }
-
-            Debug.DrawRay(boxCenter, boxDirection * maxDistance, Color.green);
-            Debug.DrawRay(boxCenter + Quaternion.identity * new Vector3(boxSize.x / 2f, boxSize.y / 2f, 0f), Quaternion.identity * new Vector3(0f, 0f, boxSize.z), Color.red);
-            Debug.DrawRay(boxCenter + Quaternion.identity * new Vector3(-boxSize.x / 2f, boxSize.y / 2f, 0f), Quaternion.identity * new Vector3(0f, 0f, boxSize.z), Color.red);
-            Debug.DrawRay(boxCenter + Quaternion.identity * new Vector3(boxSize.x / 2f, -boxSize.y / 2f, 0f), Quaternion.identity * new Vector3(0f, 0f, boxSize.z), Color.red);
-            Debug.DrawRay(boxCenter + Quaternion.identity * new Vector3(-boxSize.x / 2f, -boxSize.y / 2f, 0f), Quaternion.identity * new Vector3(0f, 0f, boxSize.z), Color.red);
         }
     }
 }
