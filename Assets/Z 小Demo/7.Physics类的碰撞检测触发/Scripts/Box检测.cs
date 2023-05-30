@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace Z_7
 {
-    public class PhysicalTest : MonoBehaviour
+    public class Box检测 : MonoBehaviour
     {
         public Collider[] colliderList;
         public BoxCollider boxCollider;

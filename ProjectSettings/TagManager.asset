@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Z2/Cube
   - Bullet
+  - Item
+  - Soldier
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - Z2

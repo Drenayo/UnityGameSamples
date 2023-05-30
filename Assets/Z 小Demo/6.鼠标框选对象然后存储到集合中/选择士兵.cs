@@ -18,26 +18,36 @@ namespace Z_6
         public Vector3 rightUpPoint;
         public Vector3 rightDownPoint;
         public LineRenderer line;
+        public LayerMask layerMask;
         public int deepZ;
         public Camera cam;
         public Transform cube;
         public Transform cube2;
-
+        public UnityEngine.UI.Text text;
+        private Vector3 beginPoint = Vector3.zero;
         void Update()
         {
             DrawRecangle();
             SelectCheck();
+
+            string outStr = string.Empty;
+            foreach (GameObject i in list)
+            {
+                outStr += i.gameObject.name + "\n";
+            }
+            text.text = outStr;
+            outStr = string.Empty;
         }
 
         public void SelectCheck()
         {
             RaycastHit hit = new RaycastHit();
-            Vector3 beginPoint = Vector3.zero;
+            
 
             // 鼠标按下
             if (Input.GetMouseButtonDown(0))
             {
-                if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out hit))
+                if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out hit, 100f, layerMask))
                 {
                     beginPoint = hit.point;
                     cube.position = beginPoint;
@@ -49,9 +59,11 @@ namespace Z_6
             {
                 list.Clear();
 
-                if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out hit))
+                if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out hit, 100f, layerMask))
                 {
                     cube2.position = hit.point;
+
+                    Debug.Log($"开始点：{beginPoint}  结束点{hit.point}");
                     Vector3 center = new Vector3((beginPoint.x + hit.point.x) / 2, 1, (beginPoint.z + hit.point.z) / 2);
                     Vector3 half = new Vector3(Mathf.Abs(hit.point.x - beginPoint.x) / 2, 1, Mathf.Abs(hit.point.z - beginPoint.z) / 2);
                     array = Physics.OverlapBox(center, half);
@@ -63,6 +75,7 @@ namespace Z_6
                     {
                         list.Add(array[i].gameObject);
                     }
+
                 }
             }
         }
