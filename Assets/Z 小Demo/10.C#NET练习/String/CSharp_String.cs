@@ -10,11 +10,7 @@ namespace Z_10
 
     public class CSharp_String
     {
-        [MenuItem("Tools/文件操作")]
-        public static void 文件操作()
-        {
-            Debug.Log("s");
-        }
+        
     }
 }
 
