@@ -183,10 +183,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -600,8 +600,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1060835665}
-        m_TargetAssemblyTypeName: "Z_14.\u5192\u6CE1\u6392\u5E8F, Assembly-CSharp"
+      - m_Target: {fileID: 1060835667}
+        m_TargetAssemblyTypeName: Z_14.SortManager, Assembly-CSharp
         m_MethodName: Btn_Reste
         m_Mode: 1
         m_Arguments:
@@ -710,10 +710,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -739,7 +739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1060835666}
-  - component: {fileID: 1060835665}
+  - component: {fileID: 1060835667}
   m_Layer: 0
   m_Name: "\u6392\u5E8F"
   m_TagString: Untagged
@@ -747,28 +747,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1060835665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060835664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f97e996830d2a64c89324a8734d2648, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stepSpeed: 0.05
-  prefab: {fileID: 7058532210867731404, guid: 9c3be862eb3d4494688d006c7c4deee2, type: 3}
-  dataSize: 100
-  maxValue: 1000
-  interval: 0.5
-  multiples: 0.05
-  diameter: 1
-  textSize: 1.5
-  dataList: 
-  entityList: []
 --- !u!4 &1060835666
 Transform:
   m_ObjectHideFlags: 0
@@ -784,6 +762,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1060835667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060835664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97e996830d2a64c89324a8734d2648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataList: 
+  entityList: []
+  sortSetting: {fileID: 11400000, guid: 892735fe6586ac84ab25572c9d752b0f, type: 2}
+  sortType: 3
 --- !u!1 &1367069618
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,10 +906,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1094,8 +1088,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1060835665}
-        m_TargetAssemblyTypeName: "Z_14.\u5192\u6CE1\u6392\u5E8F, Assembly-CSharp"
+      - m_Target: {fileID: 1060835667}
+        m_TargetAssemblyTypeName: Z_14.SortManager, Assembly-CSharp
         m_MethodName: Btn_Stop
         m_Mode: 1
         m_Arguments:
@@ -1179,9 +1173,9 @@ RectTransform:
   m_Father: {fileID: 133924254}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 322, y: 33}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -50, y: 0.0000009536743}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1817479502
@@ -1204,8 +1198,8 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 116.1, y: 44.72}
-  m_Spacing: {x: 0, y: 20.67}
+  m_CellSize: {x: 96.95, y: 37.8}
+  m_Spacing: {x: 0, y: 26.6}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &1860364472
@@ -1292,8 +1286,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1060835665}
-        m_TargetAssemblyTypeName: "Z_14.\u5192\u6CE1\u6392\u5E8F, Assembly-CSharp"
+      - m_Target: {fileID: 1060835667}
+        m_TargetAssemblyTypeName: Z_14.SortManager, Assembly-CSharp
         m_MethodName: Btn_Start
         m_Mode: 1
         m_Arguments:
