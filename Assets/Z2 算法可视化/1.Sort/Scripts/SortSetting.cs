@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Z_14
+namespace Z2_1
 {
     [CreateAssetMenu(menuName = "创建配置/Z14排序设置", fileName = "排序设置")]
     public class SortSetting : ScriptableObject
@@ -13,6 +13,7 @@ namespace Z_14
         [Range(1, 10)]
         public float sortspeed = 3;
         public float SortSpeed { get { return 1f / Mathf.Pow(2, sortspeed - 1); } }// 计算速度，1-10，1=1，2=0.5，3=0.25 等待速度依次递减，相反排序速度依次递增
+        public SortType sortType;
 
         [Space(10)]
         // 生成数据

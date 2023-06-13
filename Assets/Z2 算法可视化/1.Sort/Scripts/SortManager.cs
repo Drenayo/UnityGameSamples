@@ -5,7 +5,7 @@ using System;
 using TMPro;
 using UnityEngine.UI;
 
-namespace Z_14
+namespace Z2_1
 {
     public enum SortType
     {
@@ -21,7 +21,7 @@ namespace Z_14
         public List<int> dataList;
         public List<GameObject> entityList;
         public SortSetting sortSetting;
-        public SortType sortType;
+
         void Start()
         {
             GenerateDataAndEntity();
@@ -31,7 +31,7 @@ namespace Z_14
         public void Btn_Start()
         {
 
-            switch (sortType)
+            switch (sortSetting.sortType)
             {
                 case SortType.冒泡:
                     StartCoroutine(BubbleSort_Y());

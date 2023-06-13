@@ -13,7 +13,7 @@ namespace Z_10
         {
             Debug.Log(text.text);
             
-            AssetDatabase.Refresh();
+            //AssetDatabase.Refresh();
         }
     }
 }

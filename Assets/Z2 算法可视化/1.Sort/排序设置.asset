@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f85c584deba8f4e99ae3e545a72ab5, type: 3}
   m_Name: "\u6392\u5E8F\u8BBE\u7F6E"
   m_EditorClassIdentifier: 
-  sortspeed: 1.71
-  dataSize: 10
+  sortspeed: 10
+  sortType: 3
+  dataSize: 20
   maxValue: 100
   prefab: {fileID: 7058532210867731404, guid: 9c3be862eb3d4494688d006c7c4deee2, type: 3}
   interval: 0.29
