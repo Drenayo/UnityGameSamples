@@ -59,11 +59,12 @@ namespace Z2_3
             else if (Input.GetKeyDown(KeyCode.Mouse1) && GetOverUI().CompareTag("Item"))
             {
                 PopItemMenu(GetOverUI().name);
-                Debug.Log(GetOverUI().name);
             }
 
         }
+
         #region UI操作
+
         // 右键Item 弹出菜单
         private void PopItemMenu(string name)
         {
@@ -72,6 +73,7 @@ namespace Z2_3
                 popMenuPanel = Instantiate(popMenuPanelPrefab, canvas).transform;
 
             popMenuPanel.gameObject.SetActive(true);
+
             // 重置位置
             popMenuPanel.transform.position = Input.mousePosition + new Vector3(130, -130, 0);
 
@@ -79,36 +81,49 @@ namespace Z2_3
             popMenuPanel.transform.Find("Btn_Delete").GetComponent<Button>().onClick.AddListener(() => { DeletItem(tree.FindNode(name)); });
             popMenuPanel.transform.Find("Btn_Move").GetComponent<Button>().onClick.AddListener(() => { MoveItem(tree.FindNode(name)); });
         }
-        // 删除Item
+
+        // 删除Item *
         public void DeletItem(Tree_.Node node)
         {
-            tree.RemoveNode(node);
-            // 删除记录中的所有子节点项
-            foreach (SaveNode del in saveTree.saveList)
-            {
-                if (del.parentName.Equals(node.data))
-                    saveTree.saveList.Remove(del);
-            }
+            Tree_.Node parentNode = tree.FindParentNode(node);
+            Tree_.Node delNode = tree.RemoveNode(node);
+            RefUI(parentNode);
 
+            //// 删除记录中的所有子节点项
+            //foreach (SaveNode del in saveTree.saveList)
+            //{
+            //    if (del.parentName.Equals(delNode.data))
+            //        saveTree.saveList.Remove(del);
+            //}
             popMenuPanel.gameObject.SetActive(false);
         }
 
-        // 移动Item
+        // 移动Item *
         public void MoveItem(Tree_.Node node)
         {
             GameObject obj = Instantiate(moveItemPanel, canvas);
 
-            // 先加入新的父节点
-            tree.Add(node, tree.FindNode(obj.GetComponentInChildren<InputField>().text));
+            obj.GetComponentInChildren<Button>().onClick.AddListener(() =>
+            {
+                //Debug.Log($"s{node.data} + f{tree.FindParentNode(node).data}");
+                // 思路 把当前节点从父节点的子List移除，加入另一个父节点的子List中即可
+                Tree_.Node parentNode = tree.FindParentNode(node);
+                Tree_.Node delNode = node;
+                tree.RemoveChildNode(parentNode, node);
 
-            // 再从旧父节点中删除
-            tree.RemoveNode(node);
+                // 添加到另一个父对象子list
+                tree.Add(delNode, tree.FindNode(obj.GetComponentInChildren<InputField>().text));
+                RefUI(parentNode);
 
-            obj.GetComponentInChildren<Button>().onClick.AddListener(() => { Destroy(obj); });
+                // 持久化记录更新
+                //saveTree.GetSaveNodeBySleftName(node.data).parentName = obj.GetComponentInChildren<InputField>().text;
+
+                Destroy(obj);
+            });
             popMenuPanel.gameObject.SetActive(false);
         }
 
-        // 重命名Item
+        // 重命名Item Done
         public void RenameItem(Tree_.Node node)
         {
             GameObject obj = Instantiate(renameItemPanel, canvas);
@@ -117,6 +132,12 @@ namespace Z2_3
             {
                 string newName = obj.GetComponentInChildren<InputField>().text;
                 string oldName = node.data;
+
+                // 修改树结构的节点
+                tree.ChangeNode(node, newName);
+                // 刷新
+                RefUI(tree.FindParentNode(node));
+
                 // 修改持久化记录
                 saveTree.GetSaveNodeBySleftName(oldName).slefName = newName;
                 // 修改记录中的所有子节点项
@@ -125,16 +146,9 @@ namespace Z2_3
                     if (del.parentName.Equals(oldName))
                         del.parentName = newName;
                 }
-
-                // 修改树结构的节点
-                tree.ChangeNode(node, newName);
-
-                // 修改Hierarchy的名称
-
-                // 刷新
-                RefUI(tree.FindParentNode(node));
+                // 关闭面板
+                Destroy(obj);
             });
-            obj.GetComponentInChildren<Button>().onClick.AddListener(() => { Destroy(obj); });
             popMenuPanel.gameObject.SetActive(false);
         }
 
@@ -149,7 +163,7 @@ namespace Z2_3
                 // 添加节点
                 Tree_.Node node = new Tree_.Node(obj.GetComponentInChildren<InputField>().text);
                 tree.Add(node, parentNode);
-                SaveItem(new SaveNode(node.data, parentNode.data));// 保存
+                SaveItem(new SaveNode(node.data, parentNode.data));
                 RefUI(pathStack.Peek());
                 Destroy(obj);
             });
@@ -168,7 +182,7 @@ namespace Z2_3
             //PrintStackTest(pathStack);
         }
 
-        // 刷新该节点的UI视图
+        // 刷新该节点的UI视图 该层被刷新
         private void RefUI(Tree_.Node node)
         {
             //Debug.Log("刷新UI:" + node.data + "子列表");

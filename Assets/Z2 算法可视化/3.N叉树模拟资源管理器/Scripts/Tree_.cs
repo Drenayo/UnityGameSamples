@@ -110,7 +110,13 @@ namespace Z2_3
         public Node RemoveChildNode(Node parentNode, Node delNode)
         {
             if (parentNode == null || delNode == null) throw new System.Exception("父或子节点为空！");
+
             parentNode.childList.Remove(delNode);
+
+            //foreach (Node node in parentNode.childList)
+            //{
+            //    Debug.Log(node.data);
+            //}
             return delNode;
         }
         // 删除节点
@@ -118,6 +124,7 @@ namespace Z2_3
         {
             if ( delNode == null) throw new System.Exception("节点为空！");
             FindParentNode(delNode).childList.Remove(delNode);
+            
             return delNode;
         }
         // 修改节点值

@@ -147,6 +147,14 @@ namespace Z_13
         // 重置路径  玩家走到路线外，触发此函数, 行列数 固定4*4
         public void ResetPath()
         {
+            FalshPath();
+            RefColor();
+            RefUIGridColor();
+        }
+
+        // 伪随机路径
+        private void FalshPath()
+        {
             int[,] randomPathArray1 = {
                 { 1,1,1,1 },
                 { 0,0,0,1 },
@@ -172,22 +180,24 @@ namespace Z_13
                 currPathArray = randomPathArray2;
             else if (Random.Range(0, 4) == 2)
                 currPathArray = randomPathArray3;
-
-            RefColor();
-            RefUIGridColor();
         }
 
-        // 重置路径 随机路径 深度优先算法
-        public void ResetPath_DFS()
+        // 深度优先算法 最短路径
+        private void Path_DFS()
         {
 
         }
 
-        // 重置路径 随机路径 广度优先算法
-        public void ResetPath_BFS()
+        // 广度优先算法 最短路径
+        private void Path_BFS()
         {
 
         }
 
+        // RRT算法 基于随机采样的路径规划
+        private void Path_RRT(int start,int goal, int maxIterations,double stepSize)
+        {
+
+        }
     }
 }
