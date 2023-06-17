@@ -78,13 +78,15 @@ namespace Z2_3
             popMenuPanel.transform.position = Input.mousePosition + new Vector3(130, -130, 0);
 
             popMenuPanel.transform.Find("Btn_Rename").GetComponent<Button>().onClick.AddListener(() => { RenameItem(tree.FindNode(name)); });
-            popMenuPanel.transform.Find("Btn_Delete").GetComponent<Button>().onClick.AddListener(() => { DeletItem(tree.FindNode(name)); });
+            popMenuPanel.transform.Find("Btn_Delete").GetComponent<Button>().onClick.AddListener(() => { Debug.Log(name); DeletItem(tree.FindNode(name));  });
             popMenuPanel.transform.Find("Btn_Move").GetComponent<Button>().onClick.AddListener(() => { MoveItem(tree.FindNode(name)); });
         }
 
         // 删除Item *
         public void DeletItem(Tree_.Node node)
         {
+            Debug.Log($"删除{node.data}");
+            
             Tree_.Node parentNode = tree.FindParentNode(node);
             Tree_.Node delNode = tree.RemoveNode(node);
             RefUI(parentNode);

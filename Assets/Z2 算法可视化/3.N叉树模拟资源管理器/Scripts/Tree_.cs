@@ -123,9 +123,11 @@ namespace Z2_3
         public Node RemoveNode(Node delNode)
         {
             if ( delNode == null) throw new System.Exception("节点为空！");
+            Node del = delNode;
             FindParentNode(delNode).childList.Remove(delNode);
-            
-            return delNode;
+
+                
+            return del;
         }
         // 修改节点值
         public void ChangeNode(Node node, string value)
