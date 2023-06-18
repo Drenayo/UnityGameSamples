@@ -15,7 +15,12 @@ namespace Z2_5
 
         public void SetText(string str)
         {
-            GetComponentInChildren<TMP_Text>().text = str;
+            transform.Find("TextValue").GetComponent<TMP_Text>().text = str;
+        }
+
+        public void SetTextIndex(int index)
+        {
+            transform.Find("TextIndex").GetComponent<TMP_Text>().text = $"[{index.ToString()}]";
         }
 
         public void SetPosition(float x, float y, float z)

@@ -31,6 +31,7 @@ namespace Z2_5
         public Button btn_Serach;
         public Button btn_Delete;
         public TipsPanel tips;
+        public CameraUpdate cameraUpdate;
         void Start()
         {
             btn_Reset.onClick.AddListener(Reset);
@@ -53,6 +54,7 @@ namespace Z2_5
                 GameNode gameNode = Instantiate(nodePrefab).GetComponent<GameNode>();
 
                 gameNode.SetText(randomValue);
+                gameNode.SetTextIndex(i);
                 gameNode.SetColor(defaultColor);
                 gameNode.SetPosition(i + i * nodeInterval, nodeHeight, 0);
                 gameNode.transform.SetParent(nodeParent, false);
@@ -60,6 +62,9 @@ namespace Z2_5
 
                 linkedList.Insert(i, randomValue, gameNode);
             }
+
+            cameraUpdate.CameraPosUpdate(nodeParent,linkedList.Count);
+            tips.SetText($"重置成功！");
         }
 
         private GameNode preNode;
@@ -74,14 +79,14 @@ namespace Z2_5
 
             if (node == null)
             {
-                tips.SetText("查找失败！查找值不存在！");
+                tips.SetText($"查找[{idf_SearchValue.text}]失败！查找值不存在！");
                 return;
             }
 
             curNode = node.gameNode.GetComponent<GameNode>();
             curNode.SetColor(pointAtColor);
             preNode = curNode;
-
+            tips.SetText($"查找[{idf_SearchValue.text}]成功！");
 
         }
 
@@ -92,13 +97,14 @@ namespace Z2_5
 
             if (insertIndex < 0 || insertIndex > linkedList.Count)
             {
-                tips.SetText("插入失败！下标越界！");
+                tips.SetText($"插入[{insertValue}]失败！下标越界！");
                 return;
             }
 
             GameNode gameNode = Instantiate(nodePrefab).GetComponent<GameNode>();
             gameNode.SetColor(defaultColor);
             gameNode.SetText(insertValue);
+            gameNode.SetTextIndex(insertIndex);
             gameNode.SetPosition(insertIndex + insertIndex * nodeInterval, nodeHeight, 0);
             gameNode.transform.SetParent(nodeParent, false);
 
@@ -106,9 +112,11 @@ namespace Z2_5
             for (int i = insertIndex; i < linkedList.Count; i++)
             {
                 linkedList.Serach(i).gameNode.SetPosition(((i + 1) + (i + 1) * nodeInterval), nodeHeight, 0);
+                linkedList.Serach(i).gameNode.SetTextIndex(i + 1);
             }
 
             linkedList.Insert(insertIndex, insertValue, gameNode);
+            tips.SetText($"插入[{insertValue}]成功！");
         }
 
         public void Delete()
@@ -117,7 +125,7 @@ namespace Z2_5
             int deleteIndex = linkedList.GetIndex(deleteValue);
             if (deleteIndex == -1)
             {
-                tips.SetText("删除失败，查找不到该值！");
+                tips.SetText($"删除[{deleteValue}]失败！查找不到该值！");
                 return;
             }
 
@@ -128,7 +136,10 @@ namespace Z2_5
             for (int i = deleteIndex; i < linkedList.Count; i++)
             {
                 linkedList.Serach(i).gameNode.SetPosition(i + i * nodeInterval, nodeHeight, 0);
+                linkedList.Serach(i).gameNode.SetTextIndex(i);
             }
+
+            tips.SetText($"删除[{deleteValue}]成功！");
         }
     }
 }
