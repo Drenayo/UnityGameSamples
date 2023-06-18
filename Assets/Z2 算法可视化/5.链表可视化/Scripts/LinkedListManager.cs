@@ -63,7 +63,9 @@ namespace Z2_5
                 linkedList.Insert(i, randomValue, gameNode);
             }
 
-            cameraUpdate.CameraPosUpdate(nodeParent,linkedList.Count);
+            //Debug.Log(nodeParent.childCount);
+            //cameraUpdate.CameraPosUpdate();
+            //Debug.Log(nodeParent.childCount);
             tips.SetText($"重置成功！");
         }
 
