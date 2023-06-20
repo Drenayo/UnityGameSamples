@@ -41,7 +41,7 @@ namespace Z_14
         // 开始执行
         public virtual void StartStep() 
         {
-            Debug.Log($"[{stepName}]开启！");
+            
         }
 
         // 关闭步骤

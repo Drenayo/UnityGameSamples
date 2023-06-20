@@ -12,6 +12,13 @@ namespace Z_14
     /// </summary>
     public class Mono : MonoBehaviour
     {
+        public EventCenter eventCenter;
+
+        private void Awake() //子类重写时记得执行父
+        {
+            eventCenter = EventCenter.GetInstance();
+        }
+
         /// <summary>
         /// 启用和禁用物体
         /// </summary>
@@ -46,8 +53,6 @@ namespace Z_14
             while (queue.Count > 0)
             {
                 Transform current = queue.Dequeue();
-
-                Debug.Log(current.name);
                 if (current.name.Equals(objName))
                     return current.gameObject;
 
