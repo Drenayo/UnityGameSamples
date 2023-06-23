@@ -13,10 +13,6 @@ namespace Z_14
             Debug.Log("我是二号！");
         }
 
-        public override void NextStep()
-        {
-
-            base.NextStep();
-        }
+    
     }
 }

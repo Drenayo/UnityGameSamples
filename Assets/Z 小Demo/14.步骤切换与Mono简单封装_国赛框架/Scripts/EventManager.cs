@@ -4,19 +4,19 @@ using UnityEngine;
 
 namespace Z_14
 {
-    public class EventCenter
+    public class EventManager
     {
-        private static EventCenter instance;
-        public static EventCenter GetInstance()
+        private static EventManager instance;
+        public static EventManager GetInstance()
         {
             if (instance == null)
-                instance = new EventCenter();
+                instance = new EventManager();
 
             return instance;
         }
 
         // 声明委托
-        public delegate void processEvent(Object obj, int param);
+        public delegate void processEvent(GameObject obj, int param);
 
         // 声明字典集合 存储指令与事件的映射
         private Dictionary<string, processEvent> eventMap = new Dictionary<string, processEvent>();
@@ -35,7 +35,7 @@ namespace Z_14
                 eventMap[name] -= func;
         }
 
-        public void Trigger(string name, Object obj = null, int param = 0)
+        public void Trigger(string name, GameObject obj = null, int param = 0)
         {
             if (eventMap.ContainsKey(name))
                 eventMap[name].Invoke(obj, param);

@@ -8,28 +8,24 @@ namespace Z_14
 {
     public class One : StepBase
     {
-        public GameObject cube;
-        public GameObject[] list;
+        public GameObject cube1;
+        public GameObject cube2;
+        public bool isWord;
+        public bool isRot;
         public override void StartStep()
         {
-            eventCenter.Regist("点击", RightClick);
-
-
-
-            //SetActive(cube, true);
-            ////SetActive(cube, false, 6);// 这里的六秒指的是Start开始执行到第六秒，不是上一个三秒结束再执行六秒
-            //StartCoroutine(AA());
-        }
-
-        private void RightClick(UnityEngine.Object obj, int param)
-        {
-            Debug.Log("右键点击！");
-            NextStep();
+            base.StartStep();
+            nodeMgr.SwitchPosition(cube1.transform, cube2.transform.localPosition, isWord);
+            nodeMgr.SwitchRotation(cube1.transform, cube2.transform.localRotation, isWord);
         }
 
         public override void CloseStep()
         {
-            Debug.Log("关闭啦！");
+
+            base.CloseStep();
         }
     }
 }
+
+
+

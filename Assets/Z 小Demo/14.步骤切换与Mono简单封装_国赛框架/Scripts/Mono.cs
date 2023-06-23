@@ -7,36 +7,36 @@ using UnityEngine.SceneManagement;
 
 namespace Z_14
 {
-    /// <summary>
-    /// 重写MonoBehaviour脚本
-    /// </summary>
     public class Mono : MonoBehaviour
     {
-        public EventCenter eventCenter;
+        protected EventManager eventMgr;
+        [HideInInspector]
+        protected NodeManager nodeMgr;
+        [HideInInspector]
+        protected StepManager stepMgr;
+        [HideInInspector]
+        protected TimerManager timerMgr;
 
-        private void Awake() //子类重写时记得执行父
+        protected void Init()
         {
-            eventCenter = EventCenter.GetInstance();
+            eventMgr = EventManager.GetInstance();
+            nodeMgr = NodeManager.Instance;
+            stepMgr = StepManager.Instance;
+            timerMgr = TimerManager.Instance;
         }
-
-        /// <summary>
-        /// 启用和禁用物体
-        /// </summary>
-        /// <param name="gameObj"></param>
-        /// <param name="isActive"></param>
-        /// <param name="times"></param>
-        public void SetActive(GameObject gameObj, bool isActive,float times = 0)
+        
+        protected void SetActive(GameObject gameObj, bool isActive,float delayTime = 0)
         {
-            StartCoroutine(SetActiveDealy(gameObj, isActive, times));
+            StartCoroutine(SetActiveDealy(gameObj, isActive, delayTime));
         } 
-        IEnumerator SetActiveDealy(GameObject gameObj, bool isActive, float times)
+        IEnumerator SetActiveDealy(GameObject gameObj, bool isActive, float delayTime)
         {
-            yield return new WaitForSeconds(times);
+            yield return new WaitForSeconds(delayTime);
             gameObj.SetActive(isActive);
         }
 
         // 根据父物体，向下全局查找子物体，包括已经隐藏的，若null则全局查找
-        public GameObject FindGameObject(string objName,Transform parent= null)
+        protected GameObject FindGameObject(string objName,Transform parent= null)
         {
             Queue<Transform> queue = new Queue<Transform>();
 
@@ -65,19 +65,6 @@ namespace Z_14
 
             Debug.Log("没有找到" + objName + "节点");
             return null;
-        }
-
-        // 切换位置
-        public void PositionSwitch(Transform originTran, Transform targetTran, bool isRot, float delayTimes = 0)
-        {
-            StartCoroutine(Dealy_Pos(originTran, targetTran, isRot, delayTimes));
-        }
-        IEnumerator Dealy_Pos(Transform originTran, Transform targetTran, bool isRot, float times)
-        {
-            yield return new WaitForSeconds(times);
-            originTran.localPosition = targetTran.localPosition;
-            if (isRot)
-                originTran.localRotation = targetTran.localRotation;
         }
     }
 }
