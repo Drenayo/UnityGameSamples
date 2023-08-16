@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 namespace Z1_1
 {
-    public class 颜色进度末尾改变打字机_渐变色 : MonoBehaviour
+    public class 尾部缩放动画打字机 : MonoBehaviour // 未写
     {
-        public TMP_Text textTypeComponent;
+        public Text textTypeComponent;
         public string typeContent;
         public float typeTime;
 
@@ -43,7 +42,7 @@ namespace Z1_1
         // 得到富文本的开头的颜色
         private string GetStartColorStr(Color color)
         {
-            string hexColor = ColorUtility.ToHtmlStringRGBA(color);
+            string hexColor = ColorUtility.ToHtmlStringRGB(color);
             return $"<color=#{hexColor}>";
         }
     }

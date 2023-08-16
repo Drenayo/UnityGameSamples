@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Z_16
+namespace Z1_1
 {
     public class 颜色进度末尾改变打字机 : MonoBehaviour
     {

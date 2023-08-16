@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Z_16
+namespace Z1_1
 {
     public class 普通打字机 : MonoBehaviour
     {
         public Text textTypeComponent;
         public string typeContent;
         public float typeTime;
+
 
         void Start()
         {
