@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &83540909
 RectTransform:
   m_ObjectHideFlags: 0
@@ -273,7 +273,7 @@ MonoBehaviour:
   typeTime: 0.1
   currColor: {r: 0.18823528, g: 0.93333334, b: 0.55181324, a: 0}
   doneColor: {r: 0.9150943, g: 0.5926223, b: 0.4704966, a: 0}
-  endColorChangeLength: 3
+  endColorChangeLength: 1
 --- !u!114 &91804271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,7 +915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1608158596
 RectTransform:
   m_ObjectHideFlags: 0
