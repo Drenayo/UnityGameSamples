@@ -23,29 +23,31 @@ namespace Z1_3
             animator = GetComponent<Animator>();
         }
 
+        // 小左小、小右小、小左大（右中）、小右大（左中）、大左小（中左）、大右小（中右）
+
 
         public void TurnLeft()
         {
             switch (cardPos)
             {
                 case CardPos.中:
-                    animator.Play("中左");
+                    animator.SetTrigger("大左小");
                     cardPos = CardPos.近左;
                     break;
                 case CardPos.近左:
-                    animator.Play("左左");
+                    animator.SetTrigger("小左小");
                     cardPos = CardPos.远左;
                     break;
                 case CardPos.近右:
-                    animator.Play("右中");
+                    animator.SetTrigger("小左大");
                     cardPos = CardPos.中;
                     break;
-                case CardPos.远左:
-                    animator.Play("左左");
+                case CardPos.远左: // 循环Bug
+                    animator.SetTrigger("小左小");
                     cardPos = CardPos.远左;
                     break;
                 case CardPos.远右:
-                    animator.Play("右左");
+                    animator.SetTrigger("小左小");
                     cardPos = CardPos.近右;
                     break;
                 default:
@@ -58,23 +60,23 @@ namespace Z1_3
             switch (cardPos)
             {
                 case CardPos.中:
-                    animator.Play("中右");
+                    animator.SetTrigger("大右小");
                     cardPos = CardPos.近右;
                     break;
                 case CardPos.近左:
-                    animator.Play("左中");
+                    animator.SetTrigger("小右大");
                     cardPos = CardPos.中;
                     break;
                 case CardPos.近右:
-                    animator.Play("右右");
+                    animator.SetTrigger("小右小");
                     cardPos = CardPos.远右;
                     break;
                 case CardPos.远左:
-                    animator.Play("左右");
+                    animator.SetTrigger("小右小");
                     cardPos = CardPos.近左;
                     break;
                 case CardPos.远右:
-                    animator.Play("右右");
+                    animator.SetTrigger("小右小");
                     cardPos = CardPos.远右;
                     break;
                 default:
