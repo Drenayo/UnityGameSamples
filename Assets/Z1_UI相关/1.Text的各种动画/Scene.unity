@@ -369,7 +369,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &91804269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -406,9 +406,9 @@ MonoBehaviour:
   textTypeComponent: {fileID: 406116595}
   typeContent: "\u6C38\u548C\u4E5D\u5E74\uFF0C\u5C81\u5728\u7678\u4E11\uFF0C\u66AE\u6625\u4E4B\u521D\uFF0C\u4F1A\u4E8E\u4F1A\u7A3D\u5C71\u9634\u4E4B\u5170\u4EAD\uFF0C\u4FEE\u798A\u4E8B\u4E5F\u3002\u7FA4\u8D24\u6BD5\u81F3\uFF0C\u5C11\u957F\u54B8\u96C6\u3002\u6B64\u5730\u6709\u5D07\u5C71\u5CFB\u5CAD\uFF0C\u8302\u6797\u4FEE\u7AF9\uFF1B\u53C8\u6709\u6E05\u6D41\u6FC0\u6E4D\uFF0C\u6620\u5E26\u5DE6\u53F3\uFF0C\u5F15\u4EE5\u4E3A\u6D41\u89DE\u66F2\u6C34\uFF0C\u5217\u5750\u5176\u6B21\u3002\u867D\u65E0\u4E1D\u7AF9\u7BA1\u5F26\u4E4B\u76DB\uFF0C\u4E00\u89DE\u4E00\u548F\uFF0C\u4EA6\u8DB3\u4EE5\u7545\u53D9\u5E7D\u60C5\u3002"
   typeTime: 0.1
-  currColor: {r: 0.18823528, g: 0.93333334, b: 0.55181324, a: 0}
-  doneColor: {r: 0.9150943, g: 0.5926223, b: 0.4704966, a: 0}
-  endColorChangeLength: 1
+  currColor: {r: 1, g: 0, b: 0, a: 0}
+  doneColor: {r: 1, g: 1, b: 1, a: 0}
+  endColorChangeLength: 2
 --- !u!114 &91804271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textTypeComponent: {fileID: 1484099838}
   typeContent: "\u6C38\u548C\u4E5D\u5E74\uFF0C\u5C81\u5728\u7678\u4E11\uFF0C\u66AE\u6625\u4E4B\u521D\uFF0C\u4F1A\u4E8E\u4F1A\u7A3D\u5C71\u9634\u4E4B\u5170\u4EAD\uFF0C\u4FEE\u798A\u4E8B\u4E5F\u3002\u7FA4\u8D24\u6BD5\u81F3\uFF0C\u5C11\u957F\u54B8\u96C6\u3002\u6B64\u5730\u6709\u5D07\u5C71\u5CFB\u5CAD\uFF0C\u8302\u6797\u4FEE\u7AF9\uFF1B\u53C8\u6709\u6E05\u6D41\u6FC0\u6E4D\uFF0C\u6620\u5E26\u5DE6\u53F3\uFF0C\u5F15\u4EE5\u4E3A\u6D41\u89DE\u66F2\u6C34\uFF0C\u5217\u5750\u5176\u6B21\u3002\u867D\u65E0\u4E1D\u7AF9\u7BA1\u5F26\u4E4B\u76DB\uFF0C\u4E00\u89DE\u4E00\u548F\uFF0C\u4EA6\u8DB3\u4EE5\u7545\u53D9\u5E7D\u60C5\u3002"
-  typeTime: 0.1
+  typeTime: 0.05
   defaultColor: {r: 1, g: 1, b: 1, a: 0}
   doneColor: {r: 0.8301887, g: 0.26237094, b: 0.26237094, a: 0}
 --- !u!1 &328775827
@@ -2337,7 +2337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1329298917
 RectTransform:
   m_ObjectHideFlags: 0
