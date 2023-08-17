@@ -7,36 +7,42 @@ namespace Z_20
 {
     public class DragHandle : MonoBehaviour,IDragHandler,IEndDragHandler,IBeginDragHandler
     {
-        public static GameObject item;
-        public Vector3 startPos;
-        public Transform startParent;
+        public string itemTag;
 
+        private Vector3 startPos;
+        private Transform startParent;
+        private Transform item;
         void Start()
         {
-
+            gameObject.AddComponent<CanvasGroup>();
+            gameObject.AddComponent<EventTrigger>();
         }
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            item = eventData.pointerPress;
-            startPos = item.transform.position;
-            startParent = item.transform.parent;
+            item = eventData.pointerPress.transform;
 
-            SetCanvasGroup(.5f, false);
+            startPos = item.position;
+            startParent = item.parent;
+            
+            item.parent.SetAsLastSibling();
+            item.parent.parent.SetAsLastSibling();
+
+            SetCanvasGroup(1f, false);
         }
 
         public void OnDrag(PointerEventData eventData)
         {
-            item.transform.position = Input.mousePosition;
+            item.position = Input.mousePosition;
         }
 
         public void OnEndDrag(PointerEventData eventData)
         {
             SetCanvasGroup(1f, true);
 
-            if (item.transform.parent == startParent)
+            if (item.parent == startParent)
             {
-                item.transform.position = startPos;
+                item.position = startPos;
             }
         }
 
@@ -44,9 +50,6 @@ namespace Z_20
         public void SetCanvasGroup(float alpha,bool blockRaycasts)
         {
             CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
-            if (!canvasGroup)
-                canvasGroup = gameObject.AddComponent<CanvasGroup>();
-
             canvasGroup.alpha = alpha;
             canvasGroup.blocksRaycasts = blockRaycasts;
         }

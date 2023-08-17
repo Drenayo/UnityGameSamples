@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 namespace XXX//typeWriter
 {
@@ -10,23 +11,18 @@ namespace XXX//typeWriter
         public float typeSpacing;
         public string typeContent;
         public Text textComponent;
-
-        public Color endColor;
-        public Color defaultColor;
-
-        public int endLength;
-
         public bool playOnAwake;
+        public int endLength;
+        public Color defaultColor;
+        public Color endColor;
+        public string EndColorRichText = "</color>";
 
-        private string EndColorRichText = "</color>";
-
-        public void Start()
+        private void Start()
         {
             if (playOnAwake)
-            {
                 StartTypeWriter();
-            }
         }
+
 
         public void StartTypeWriter()
         {
@@ -42,14 +38,16 @@ namespace XXX//typeWriter
             {
                 yield return new WaitForSeconds(typeSpacing);
                 strTemp += typeContent[i];
-                int endIndex = endLength + i + 1 <= typeContent.Length ? endLength : 0;
-                textComponent.text = strTemp + EndColorRichText + GetStartColorRichText(endColor) + typeContent.Substring(i + 1, endIndex) + EndColorRichText;
+                // 判断
+                int indexEndNumber = endLength + i + 1 <= typeContent.Length ? endLength : 0;
+                // 赋值
+                textComponent.text = strTemp + EndColorRichText + GetStartColorRichText(endColor) + typeContent.Substring(i + 1, indexEndNumber) + EndColorRichText;
             }
         }
 
         private string GetStartColorRichText(Color col)
         {
-            return "<color=#" + ColorUtility.ToHtmlStringRGB(col) + ">";
+            return $"<color=#{ColorUtility.ToHtmlStringRGB(col)}>";
         }
     }
 }
