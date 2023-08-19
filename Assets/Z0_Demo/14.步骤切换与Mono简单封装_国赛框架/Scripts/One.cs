@@ -17,6 +17,8 @@ namespace Z_14
             base.StartStep();
             nodeMgr.SwitchPosition(cube1.transform, cube2.transform.localPosition, isWord);
             nodeMgr.SwitchRotation(cube1.transform, cube2.transform.localRotation, isWord);
+
+            NextStep(3);
         }
 
         public override void CloseStep()

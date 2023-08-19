@@ -20,6 +20,7 @@ namespace Z_16
         public Toggle tog_ShowPass;
 
         public Dictionary<string, string> dicUserInfo = new Dictionary<string, string>();
+
         private void Start()
         {
             isPlayer = true;
@@ -137,6 +138,5 @@ namespace Z_16
             yield return new WaitForSeconds(tipsHidespeed);
             tipsErrorInfo.SetActive(false);
         }
-
     }
 }

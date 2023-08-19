@@ -23,13 +23,9 @@ namespace Z_20
             }
         }
 
-
         void Start()
         {
             gameObject.AddComponent<EventTrigger>();
         }
     }
 }
-
-// w 84.6
-// h 72.8
