@@ -301,20 +301,120 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1255258923834919921
+--- !u!1001 &1413671789
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 509909795672966073, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandMiddle5
+      objectReference: {fileID: 0}
+    - target: {fileID: 637919586251004276, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandPinky6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175995626478486163, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandPinky4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1428443538743626673, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandPinky3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499163507654210553, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandMiddle4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1594741033630780357, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandIndex6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647077622260122261, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandRing3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682342742769231043, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandThumb6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884981689235350830, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandIndex5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889887910571956194, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandPinky6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1963611818576832424, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandRing6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2007077573366085923, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandThumb3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2077115060033519283, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandThumb4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192320941914023599, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandMiddle3
+      objectReference: {fileID: 0}
     - target: {fileID: 2240439025188734981, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0005b87f8b807d343bc87682ced64acf, type: 2}
+    - target: {fileID: 2732099840735475836, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandMiddle5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839963629010287179, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandRing4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987238519344590500, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandMiddle4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626601364543857777, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandIndex6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660322688891116159, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: Ch38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176194455320127698, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandThumb5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233450093742022906, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandPinky5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375232703381384007, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandPinky5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639131178730281565, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandRing5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146349478505652735, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandThumb3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734744277749856480, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandIndex3
+      objectReference: {fileID: 0}
     - target: {fileID: 6005741597920533626, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
       propertyPath: m_Name
-      value: Ch36_nonPBR 2
+      value: Ch36_nonPBR 3
       objectReference: {fileID: 0}
     - target: {fileID: 6346555410772084416, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
       propertyPath: m_RootOrder
@@ -360,27 +460,99 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6595220831872960121, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandIndex5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772316852420238311, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandPinky4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817558741060493606, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandThumb4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824911610245889569, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandMiddle6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6839016818211934418, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandPinky3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7382092368875131169, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandIndex4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446939415482084699, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandThumb5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7580621456456353646, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:Spine4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669500597160643852, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandRing4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697585950555927587, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandRing3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787594376219479078, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:Spine3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047288588689264053, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandRing5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150647367572719982, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandMiddle6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260235527863516540, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandIndex3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476684288007375333, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandRing6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8514990762072912413, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandIndex4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779415657562612701, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:RightHandThumb6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927353204623553493, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
+      propertyPath: m_Name
+      value: mixamorig1:LeftHandMiddle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
---- !u!1 &4770224045658920843 stripped
+--- !u!1 &1754310264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6005741597920533626, guid: 44cabc4aa9d7851408beef8a82e8cd96, type: 3}
-  m_PrefabInstance: {fileID: 1255258923834919921}
+  m_PrefabInstance: {fileID: 1413671789}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5294242850156219698
+--- !u!114 &1754310265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4770224045658920843}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1754310264}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0d5affb0ae27ce4e86b39e3619026c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mat: {fileID: 2100000, guid: 0005b87f8b807d343bc87682ced64acf, type: 2}
-  speed: 1
-  startColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0.49019608}
-  endColor: {r: 0.8197224, g: 0.9433962, b: 0.45834818, a: 0.09803922}
-  isFlicker: 1
+  flashSpeed: 0.7
+  intensity: 0.5
+  startColor: {r: 1, g: 1, b: 1, a: 0}
+  endColor: {r: 1, g: 0.983102, b: 0, a: 0}
