@@ -25,8 +25,7 @@ namespace Z_23
             if (isFlicker)
             {
                 mat.EnableKeyword("_EMISSION");
-                //Mathf.PingPong(Time.time, speed)
-                mat.SetColor("_EmissionColor", Color.Lerp(startColor, endColor, speed));
+                mat.SetColor("_EmissionColor", Color.Lerp(startColor, endColor, Mathf.PingPong(Time.time, speed)));
             }
             else
             {
