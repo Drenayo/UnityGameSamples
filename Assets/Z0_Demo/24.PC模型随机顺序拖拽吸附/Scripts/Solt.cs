@@ -7,35 +7,34 @@ namespace Z_24
     public class Solt : MonoBehaviour
     {
         public string tag;
-        public bool isNotNull = false;
-        public DragItem item;
+        public DragItem soltItem;
+
         void Start()
         {
 
         }
 
-
-        public void OnTriggerEnter(Collider other)
+        private void OnTriggerStay(Collider other)
         {
-            if (other.gameObject.TryGetComponent<DragItem>(out item) && item.tag.Equals(tag))
+            if (!soltItem && other.gameObject.TryGetComponent<DragItem>(out DragItem item) && item.tag.Equals(tag))
             {
-                isNotNull = true;
-            }
-        }
+                if (Input.GetKeyUp(KeyCode.Mouse0))
+                {
+                    Debug.Log("鼠标抬起");
+                    soltItem = item;
+                    FixOrder fixOrder = FixOrder.Instance;
+                    if (fixOrder.orderList[fixOrder.fixNumber].Equals(soltItem.tag))
+                    {
+                        soltItem.transform.position = transform.position;
+                        fixOrder.fixNumber++;
+                    }
+                    else
+                    {
+                        fixOrder.fixNumber =0;
+                        fixOrder.RestetFix();
+                    }
 
-        public void OnTriggerExit(Collider other)
-        {
-            if (other.gameObject.TryGetComponent<DragItem>(out item) && item.tag.Equals(tag))
-            {
-                isNotNull = false;
-            }
-        }
-
-        private void Update()
-        {
-            if (isNotNull)
-            {
-                item.transform.position = transform.position;
+                }
             }
         }
     }

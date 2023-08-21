@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Ca
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!136 &65163194
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -281,7 +282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94669383}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.77, y: 0.84, z: 6.31}
+  m_LocalPosition: {x: 2.98, y: 0.76, z: 7.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -301,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Cube
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!65 &94669386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -585,8 +587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Cube
-  isNotNull: 0
-  item: {fileID: 0}
+  soltItem: {fileID: 0}
 --- !u!1 &968831612
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 968831613}
+  - component: {fileID: 968831614}
   m_Layer: 0
   m_Name: "\u63D2\u69FD"
   m_TagString: Untagged
@@ -611,7 +613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968831612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -622,6 +624,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &968831614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968831612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 774514ca044d31b4fbed973ffa2bbe00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixNumber: 0
+  orderList:
+  - Cy
+  - Ca
+  - Sp
+  - Cube
+  SoltParent: {fileID: 968831613}
+  DragParent: {fileID: 1098292134}
 --- !u!1 &1098292133
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559446508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3, y: 1.12, z: 6.75}
+  m_LocalPosition: {x: 0.91, y: 1.12, z: 7.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -868,6 +890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Cy
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!136 &1559446511
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -997,6 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Sp
+  startPos: {x: 0, y: 0, z: 0}
 --- !u!135 &1895472209
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1187,8 +1211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Sp
-  isNotNull: 0
-  item: {fileID: 0}
+  soltItem: {fileID: 0}
 --- !u!1 &1995464913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,8 +1324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Ca
-  isNotNull: 0
-  item: {fileID: 0}
+  soltItem: {fileID: 0}
 --- !u!1 &2090057242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,5 +1437,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tag: Cy
-  isNotNull: 0
-  item: {fileID: 0}
+  soltItem: {fileID: 0}
