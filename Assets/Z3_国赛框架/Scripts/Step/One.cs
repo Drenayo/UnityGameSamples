@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-namespace Z_14
+using GSFrame;
+namespace Z3
 {
     public class One : StepBase
     {

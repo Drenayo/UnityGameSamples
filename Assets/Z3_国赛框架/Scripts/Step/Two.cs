@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using GSFrame;
 
-namespace Z_14
+namespace Z3
 {
     public class Two : StepBase
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Z_14
+namespace GSFrame
 {
     public class TimerManager : Mono
     {

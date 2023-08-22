@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-namespace Z_14
+namespace GSFrame
 {
     public class StepBase : Mono
     {

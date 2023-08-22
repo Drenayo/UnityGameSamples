@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-namespace Z_14
+namespace GSFrame
 {
     public class NodeManager : Mono
     {

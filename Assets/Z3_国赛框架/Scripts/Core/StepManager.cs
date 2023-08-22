@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Z_14
+namespace GSFrame
 {
     public class StepManager : Mono
     {
