@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9dfa825770c5486b9d95384bc7f7a1a, type: 3}
+  m_Name: TodoList
+  m_EditorClassIdentifier: 
+  owners:
+  - name: Normal
+    color: {r: 1, g: 1, b: 1, a: 1}
+    index: 0
+  - name: Urgent
+    color: {r: 1, g: 0, b: 0, a: 1}
+    index: 1
+  - name: In Progress
+    color: {r: 0, g: 1, b: 1, a: 1}
+    index: 2
+  - name: Note
+    color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    index: 3
+  items:
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: 'Phase 1: Download Todo from the Asset Store.'
+    isComplete: 1
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: 'Phase 2: ?'
+    isComplete: 0
+  - owner:
+      name: Normal
+      color: {r: 1, g: 1, b: 1, a: 1}
+      index: 0
+    task: 'Phase 3: Profit.'
+    isComplete: 1
+  - owner:
+      name: Note
+      color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+      index: 3
+    task: 123
+    isComplete: 0
