@@ -1,189 +1,197 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 
-/*
-
-This is a simple piece of todo software created by Will Stallwood of Cipher Prime.
-http://www.cipherprime.com
-
-*/
-
 public class TodoList : EditorWindow
 {
 	private static TodoList _window;
-	private ListData _listData;
+	private TaskDataList taskDataList;
     private string _listDataDirectory = "/Resources/Todo/";
 	private string _listDataAssetPath = "Assets/Resources/Todo/TodoList.asset";
-	private int _currentOwnerIndex = 0;
-	private int _newTaskOwnerIndex = 0;
-	private string _newTask;
+	private int currentSelectLabelIndex = 0;
+	private int newTaskLabelIndex = 0;
+	private string newTask;
 	private bool showCompletedTasks = true;
-	private Vector2 _scrollPosition = Vector2.zero;
-	
-	[MenuItem ("Window/Todo List %l")]
+	private Vector2 scrollPosition = Vector2.zero;
+	private GUIStyle taskTextStyle;
+	private int displayCount = 0;
+	[MenuItem ("Tool/Todo Window")]
     public static void Init ()
     {
-        // Get existing open window or if none, make a new one:
         _window = ( TodoList )EditorWindow.GetWindow (typeof ( TodoList ));
-		_window.title = "Todo List";
+		_window.titleContent = new GUIContent("待办事项");
+		// 当场景发生变化，是否重新绘制
 		_window.autoRepaintOnSceneChange = false;
     }
     
 	public void OnGUI ()
-	{	
-		// Create our data if we have none.
-		if(_listData == null)
+	{
+		// 加载或创建任务列表资源
+		if (taskDataList == null)
 		{
-			//Debug.Log("no asset file found, need to reload");
-			_listData = AssetDatabase.LoadAssetAtPath( _listDataAssetPath, typeof(ListData)) as ListData;
-			if(_listData == null)
+			taskDataList = AssetDatabase.LoadAssetAtPath( _listDataAssetPath, typeof(TaskDataList)) as TaskDataList;
+			if(taskDataList == null)
 			{
-				//Debug.Log("no asset file found, could not reload");	
-				_listData = ScriptableObject.CreateInstance(typeof(ListData)) as ListData;
+				// 自动创建一个ToDo资源
+				taskDataList = ScriptableObject.CreateInstance(typeof(TaskDataList)) as TaskDataList;
                 System.IO.Directory.CreateDirectory(Application.dataPath + _listDataDirectory);
-				AssetDatabase.CreateAsset(_listData, _listDataAssetPath );
+				AssetDatabase.CreateAsset(taskDataList, _listDataAssetPath );
 				GUI.changed = true;				
 			}						
 		}
 
-		// display the filter fields
-		string[] owners = new string[_listData.owners.Count + 1];
-		string[] ownersToSelect = new string[_listData.owners.Count];
+		// +1 是因为下拉列表项需要有一个All Tasks
+		string[] labels = new string[taskDataList.labels.Count + 1];
+		string[] labelsToSelect = new string[taskDataList.labels.Count];
 		
-		owners[0] = "All Tasks";
-		for(int i = 0; i < _listData.owners.Count; i++)
+		labels[0] = "All Tasks";
+		for(int i = 0; i < taskDataList.labels.Count; i++)
 		{
-			owners[i+1] = _listData.owners[i].name;
-			ownersToSelect[i] = _listData.owners[i].name;
+			labels[i+1] = taskDataList.labels[i].name;
+			labelsToSelect[i] = taskDataList.labels[i].name;
 		}
 
+		// 使用水平布局，后续元素将横向排列
 		EditorGUILayout.BeginHorizontal();
-            EditorGUILayout.LabelField("Show tasks:", EditorStyles.boldLabel);
-            _currentOwnerIndex = EditorGUILayout.Popup(_currentOwnerIndex, owners);
+        EditorGUILayout.LabelField("小梦的待办列表:", EditorStyles.boldLabel);
+		// 创建一个下拉列表，index代表当前索引，labels代表需要下拉的项
+        currentSelectLabelIndex = EditorGUILayout.Popup(currentSelectLabelIndex, labels);
+		newTaskLabelIndex = currentSelectLabelIndex - 1;
 		EditorGUILayout.EndHorizontal();
-        
-		// display the list
-		GUIStyle itemStyle = new GUIStyle(EditorStyles.wordWrappedMiniLabel);
-		itemStyle.alignment = TextAnchor.UpperLeft;
-		_scrollPosition = EditorGUILayout.BeginScrollView(_scrollPosition);
-		int displayCount = 0;
-		
-		for( int i = 0; i < _listData.items.Count; i++)
+
+
+		// 显示列表
+		taskTextStyle = new GUIStyle(EditorStyles.wordWrappedMiniLabel); // EditorStyles.wordWrappedMiniLabel 是 Unity 编辑器提供的一个内置样式，通常用于显示小型标签文本，允许文本自动换行。
+		taskTextStyle.alignment = TextAnchor.UpperLeft;
+
+		// 设置滚动视图
+		scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
+
+		// 显示 未完成 Task项
+		for( int i = 0; i < taskDataList.tasks.Count; i++)
 		{
-			ListItem item = _listData.items[i];
-			ListItemOwner owner = item.owner;			
-			if(_currentOwnerIndex == 0)
+			Task task = taskDataList.tasks[i];
+			TaskLabel taskLabel = task.label;
+
+			//Debug.Log(currentSelectLabelIndex);
+			if(currentSelectLabelIndex == 0 && task.isComplete == false)
 			{	
-				itemStyle.normal.textColor = owner.color;
-				if(item.isComplete == false)
-				{
-					displayCount++;
-					EditorGUILayout.BeginHorizontal();
-					if(EditorGUILayout.Toggle(item.isComplete, GUILayout.Width(20)) == true)
-					{
-						_listData.items[i].isComplete = true;
-					}
-					_listData.items[i].task = EditorGUILayout.TextField(item.task, itemStyle);
-					int newOwnerIndex = EditorGUILayout.Popup(owner.index, ownersToSelect,GUILayout.Width(60));
-					if(newOwnerIndex != owner.index)
-					{
-						item.owner = _listData.owners[newOwnerIndex];
-						_listData.items[i] = item;
-					}											
-					EditorGUILayout.EndHorizontal();
-					EditorGUILayout.Space();
-				}
-			}else{
-				int adjustedIndex = _currentOwnerIndex - 1;
-				owner = _listData.owners[adjustedIndex];
-				if(owner.name == item.owner.name)
-				{
-					itemStyle.normal.textColor = owner.color;
-					if(item.isComplete == false)
-					{
-						displayCount++;
-						EditorGUILayout.BeginHorizontal();
-						if(EditorGUILayout.Toggle(item.isComplete, GUILayout.Width(20)) == true)
-						{
-							_listData.items[i].isComplete = true;
-						}						
-						_listData.items[i].task = EditorGUILayout.TextField(item.task, itemStyle);
-						int newOwnerIndex = EditorGUILayout.Popup(adjustedIndex, ownersToSelect,GUILayout.Width(60));
-						if(newOwnerIndex != adjustedIndex)
-						{
-							item.owner = _listData.owners[newOwnerIndex];
-							_listData.items[i] = item;
-						}
-						EditorGUILayout.EndHorizontal();
-						EditorGUILayout.Space();
-					}
-				}
+				CreateUnDoneTaskItem(task, i);
 			}
-		}
-		
-		if(displayCount == 0)
-        {
-			EditorGUILayout.LabelField("No tasks currently", EditorStyles.largeLabel);
+            else if(currentSelectLabelIndex > 0)
+            {
+                int adjustedIndex = currentSelectLabelIndex - 1;
+                taskLabel = taskDataList.labels[adjustedIndex];
+                if (taskLabel.name == task.label.name && task.isComplete == false)
+                {
+                    CreateUnDoneTaskItem(task, i);
+                }
+            }
         }
-		
-		if((showCompletedTasks) && (_currentOwnerIndex == 0))
-		{
-			itemStyle.normal.textColor = Color.grey;
-			for( int i = 0; i < _listData.items.Count; i++)
+
+        // 显示 已完成待办
+        for (int i = 0; i < taskDataList.tasks.Count; i++)
+        {
+            Task task = taskDataList.tasks[i];
+            TaskLabel taskLabel = task.label;
+
+            if (currentSelectLabelIndex == 0 && task.isComplete)
+            {
+                CreateDoneTaskItem(task, Color.gray, i);
+            }
+			else if(currentSelectLabelIndex > 0)
 			{
-				if(_listData.items[i].isComplete == true)
-				{
-					ListItem item = _listData.items[i];
-					EditorGUILayout.BeginHorizontal();
-					if(EditorGUILayout.Toggle(item.isComplete, GUILayout.Width(20)) == false)
-					{
-						_listData.items[i].isComplete = false;
-					}
-					EditorGUILayout.LabelField(item.task, itemStyle);
-					if(GUILayout.Button("x",GUILayout.Width(23)))
-					{
-						_listData.items.RemoveAt(i);
-					}	
-					EditorGUILayout.EndHorizontal();
-					EditorGUILayout.Space();
-				}					
-			}
-		}	
-		
+                int adjustedIndex = currentSelectLabelIndex - 1;
+                taskLabel = taskDataList.labels[adjustedIndex];
+                if (taskLabel.name == task.label.name && task.isComplete)
+                {
+                    CreateDoneTaskItem(task, Color.gray, i);
+                }
+            }
+        }
+
+        if (displayCount == 0)
+        {
+			EditorGUILayout.LabelField("现在是摸鱼时间！~", EditorStyles.largeLabel);
+        }
 		EditorGUILayout.EndScrollView();
 
-		// display our task creation area
-		EditorGUILayout.BeginHorizontal();
-		EditorGUILayout.LabelField("Create Task:", EditorStyles.boldLabel);
-		_newTaskOwnerIndex  = EditorGUILayout.Popup(_newTaskOwnerIndex, ownersToSelect,GUILayout.Width(60));
-		EditorGUILayout.EndHorizontal();
-		_newTask = EditorGUILayout.TextField(_newTask, GUILayout.Height(40));
-		if( ( GUILayout.Button("Create Task") && _newTask != "" ) )
+		// 创建任务
+		//EditorGUILayout.BeginHorizontal();
+		////EditorGUILayout.LabelField("Create Task:", EditorStyles.boldLabel);
+		//EditorGUILayout.EndHorizontal();
+		newTask = EditorGUILayout.TextField(newTask, GUILayout.Height(40));
+		if( ( GUILayout.Button("创建新待办") && newTask != "" ) && newTaskLabelIndex  >= 0)
 		{
-			// create new task
-			ListItemOwner newOwner = _listData.owners[_newTaskOwnerIndex];
-			_listData.AddTask(newOwner, _newTask);			
-			//EditorUtility.DisplayDialog("Task created for " + newOwner.name, _newTask, "Sweet");
-			_newTask = "";
+			TaskLabel newOwner = taskDataList.labels[newTaskLabelIndex];
+			taskDataList.AddTask(newOwner, newTask);			
+			newTask = "";
 			GUI.FocusControl(null);				
 		}
 		
+
 		if(GUI.changed)
 		{
-			//Debug.Log("Save Data: " + _listData.items.Count);
-			EditorUtility.SetDirty(_listData);
-			AssetDatabase.SaveAssets();
-			AssetDatabase.SaveAssets();		
+			EditorUtility.SetDirty(taskDataList);
+			AssetDatabase.SaveAssets();	
 		}	
 	}
+
+	// 创建未完成待办显示项
+	public void CreateUnDoneTaskItem(Task currTask,int forI)
+    {
+		UpdateLable();
+		taskTextStyle.normal.textColor = currTask.label.color;
+		displayCount++;
+		EditorGUILayout.BeginHorizontal();
+		if (EditorGUILayout.Toggle(currTask.isComplete, GUILayout.Width(20)) == true)
+		{
+			taskDataList.tasks[forI].isComplete = true;
+		}
+		taskDataList.tasks[forI].taskName = EditorGUILayout.TextField(currTask.taskName, taskTextStyle);
+
+		EditorGUILayout.EndHorizontal();
+		EditorGUILayout.Space();
+	}
 	
-	void OnDestroy()
+	// 创建已完成待办显示项
+	public void CreateDoneTaskItem(Task currTask,Color color,int forI)
+    {
+		taskTextStyle.normal.textColor = color;
+		EditorGUILayout.BeginHorizontal();
+		EditorGUILayout.LabelField(currTask.taskName, taskTextStyle);
+		if (GUILayout.Button("X", GUILayout.Width(20)))
+		{
+			taskDataList.tasks.RemoveAt(forI);
+		}
+		EditorGUILayout.EndHorizontal();
+		EditorGUILayout.Space();
+	}
+
+	// 更新Task的Lable配置 保证在Asset的更改能在下次OnGUI生效
+	public void UpdateLable()
 	{
-		EditorUtility.SetDirty(_listData);
-		AssetDatabase.SaveAssets();
+		for (int i = 0; i < taskDataList.tasks.Count; i++)
+		{
+			Task task = taskDataList.tasks[i];
+			for (int j = 0; j < taskDataList.labels.Count; j++)
+            {
+				TaskLabel taskLabel = taskDataList.labels[j];
+				if (taskLabel.labelIndex == task.label.labelIndex)
+                {
+					task.label.color = taskLabel.color;
+					task.label.name = taskLabel.name;
+                }
+            }
+
+		}
+	}
+
+		void OnDestroy()
+	{
+		EditorUtility.SetDirty(taskDataList);
 		AssetDatabase.SaveAssets();
 	}	
 }
