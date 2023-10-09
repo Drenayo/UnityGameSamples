@@ -17,6 +17,7 @@ public class TodoList : EditorWindow
 	private Vector2 scrollPosition = Vector2.zero;
 	private GUIStyle taskTextStyle;
 	private int displayCount = 0;
+	private GUILayoutOption heightOption;
 	[MenuItem ("Tool/Todo Window")]
     public static void Init ()
     {
@@ -60,11 +61,12 @@ public class TodoList : EditorWindow
         currentSelectLabelIndex = EditorGUILayout.Popup(currentSelectLabelIndex, labels);
 		newTaskLabelIndex = currentSelectLabelIndex - 1;
 		EditorGUILayout.EndHorizontal();
-
+		
 
 		// 显示列表
-		taskTextStyle = new GUIStyle(EditorStyles.wordWrappedMiniLabel); // EditorStyles.wordWrappedMiniLabel 是 Unity 编辑器提供的一个内置样式，通常用于显示小型标签文本，允许文本自动换行。
+		taskTextStyle = new GUIStyle(EditorStyles.miniBoldLabel); // EditorStyles.wordWrappedMiniLabel 是 Unity 编辑器提供的一个内置样式，通常用于显示小型标签文本，允许文本自动换行。
 		taskTextStyle.alignment = TextAnchor.UpperLeft;
+		// taskTextStyle.wordWrap = true;
 
 		// 设置滚动视图
 		scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
@@ -130,9 +132,7 @@ public class TodoList : EditorWindow
 			newTask = "";
 			GUI.FocusControl(null);				
 		}
-		
-
-		if(GUI.changed)
+		if (GUI.changed)
 		{
 			EditorUtility.SetDirty(taskDataList);
 			AssetDatabase.SaveAssets();	
@@ -146,7 +146,8 @@ public class TodoList : EditorWindow
 		taskTextStyle.normal.textColor = currTask.label.color;
 		displayCount++;
 		EditorGUILayout.BeginHorizontal();
-		if (EditorGUILayout.Toggle(currTask.isComplete, GUILayout.Width(20)) == true)
+
+		if (EditorGUILayout.Toggle(currTask.isComplete, GUILayout.Width(15), GUILayout.Height(28)) == true)
 		{
 			taskDataList.tasks[forI].isComplete = true;
 		}
@@ -160,12 +161,16 @@ public class TodoList : EditorWindow
 	public void CreateDoneTaskItem(Task currTask,Color color,int forI)
     {
 		taskTextStyle.normal.textColor = color;
+		GUIStyle newStyle = taskTextStyle;
+		newStyle.alignment = TextAnchor.MiddleLeft;
+
 		EditorGUILayout.BeginHorizontal();
-		EditorGUILayout.LabelField(currTask.taskName, taskTextStyle);
-		if (GUILayout.Button("X", GUILayout.Width(20)))
+		EditorGUILayout.LabelField(currTask.taskName, newStyle);
+		if (GUILayout.Button("X", GUILayout.Width(18), GUILayout.Height(18)))
 		{
 			taskDataList.tasks.RemoveAt(forI);
 		}
+		
 		EditorGUILayout.EndHorizontal();
 		EditorGUILayout.Space();
 	}
