@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Z2_\u7B97\u6CD5\u53EF\u89C6\u5316/1.Sort/Scene/New Scene.unity"
+    path: "Assets/Temp/Z2_\u7B97\u6CD5\u53EF\u89C6\u5316/1.Sort/Scene/New Scene.unity"
     guid: 5772ddaed0339c441be1251fd1663461
   m_configObjects: {}
