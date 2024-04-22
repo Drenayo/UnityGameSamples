@@ -8,15 +8,26 @@ namespace DemoTemp
 {
     public class TaskNPC : MonoBehaviour,IPointerClickHandler
     {
-        public int NPCID { get; set; }
-        public string NPCName { get; set; }
-        public bool HasTask { get; set; }
-        public Task CurrentTask { get; set; }
-        public TaskStatus CurrentTaskStatus { get; set; }
+        public int NPCID;
+        public string NPCName;
+
+        [Header("是否存在任务")]
+        public bool hasTask;
+        [Header("是否可以接取任务")]
+        public bool canAcceptTask;
+        [Header("当前任务")]
+        public Task currentTask;
+        [Header("当前任务状态")]
+        public TaskStatus CurrentTaskStatus;
+
+        [SerializeField]
+        private List<Task> taskList;
 
         void IPointerClickHandler.OnPointerClick(PointerEventData eventData)
         {
-            Debug.Log(gameObject.name);
+            Debug.Log($"{NPCName}被点击，当前拥有任务数量{taskList.Count}");
         }
+
+
     }
 }

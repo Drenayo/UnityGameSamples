@@ -2,23 +2,35 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace DemoTemp
 {
     public class Player
     {
-        public List<Task> AcceptedTasks { get; set; }
-        public List<Task> CompletedTasks { get; set; }
-        public Task CurrentTask { get; set; }
+        public static Player Instance;
+        
+        [SerializeField]
+        private List<Task> acceptedTasks = new List<Task>();
+        [SerializeField]
+        private List<Task> completedTasks = new List<Task>();
+        
+        public Task currentTask;
 
-        public void AcceptTask(int taskID)
+        public void Awake()
         {
-            // 接取任务的逻辑
+            Instance = this;
         }
 
-        public void AbandonTask(int taskID)
+        public void AcceptTask(Task task)
         {
-            // 放弃任务的逻辑
+            if (currentTask.taskStatus == TaskStatus.Completed)
+            {
+                completedTasks.Add(currentTask);
+                currentTask = task;
+                acceptedTasks.Add(currentTask);
+            }
+            Debug.Log($"玩家接取任务:{task.taskName}");
         }
     }
 }
