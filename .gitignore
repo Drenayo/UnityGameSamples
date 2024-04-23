@@ -10,4 +10,5 @@ Logs/
 Library/
 .vs/
 Temp/
-Plugins/Sirenix/
+Assets/Plugins/Sirenix/
+Assets/Plugins/Sirenix.meta
