@@ -45,6 +45,7 @@ namespace D002
         // 得到富文本的开头的颜色
         private string GetStartColorStr(Color color)
         {
+            // 用于从Color转为富文本支持的十六进制颜色值
             string hexColor = ColorUtility.ToHtmlStringRGB(color);
             return $"<color=#{hexColor}>";
         }
