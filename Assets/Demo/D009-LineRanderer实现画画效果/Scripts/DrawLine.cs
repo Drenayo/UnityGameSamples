@@ -6,9 +6,9 @@ namespace D009
 {
     public class DrawLine : MonoBehaviour
     {
-        public Material lineMaterial;
         public Color lineColor;
         public float lineWidth;
+        public Material lineMaterial;
 
         private LineRenderer line;
         private List<Vector3> linePointList = new List<Vector3>();
@@ -35,13 +35,17 @@ namespace D009
 
         void Update()
         {
-            // 按住不放时，画线，因为是从鼠标位置转到世界位置的，所以都是XY轴生效，所以是面向屏幕的
             if (Input.GetKey(KeyCode.Mouse0))
             {
+                // 2D写法
                 Vector3 mousePoint = Input.mousePosition;
+                //linePointList.Add(mousePoint);
+                //line.positionCount = linePointList.Count;
+                //line.SetPositions(linePointList.ToArray());
+
+                // 3D写法 就是Canvas的类型是WorldSpace的写法
                 mousePoint.z = 10;
                 Vector3 worldPoint = Camera.main.ScreenToWorldPoint(mousePoint);
-
                 linePointList.Add(worldPoint);
                 line.positionCount = linePointList.Count;
                 line.SetPositions(linePointList.ToArray());
