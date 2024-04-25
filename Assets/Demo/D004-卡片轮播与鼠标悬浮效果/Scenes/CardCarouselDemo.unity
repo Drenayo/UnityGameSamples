@@ -158,7 +158,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 127
 --- !u!114 &204471501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,7 +511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785927367511262242, guid: 07923f9bdf48434439ae98969d79ab2d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -402.7
+      value: -354.59998
       objectReference: {fileID: 0}
     - target: {fileID: 8785927367511262242, guid: 07923f9bdf48434439ae98969d79ab2d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -773,10 +773,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startOffset: -500
   endOffset: 500
-  imageList: []
+  cardSpacing: 200
   isPlaying: 1
   slideSpeed: 100
-  slideToLeft: 0
+  slideToLeft: 1
 --- !u!1 &1759209535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785927367511262242, guid: 07923f9bdf48434439ae98969d79ab2d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 213.1
+      value: 261.2
       objectReference: {fileID: 0}
     - target: {fileID: 8785927367511262242, guid: 07923f9bdf48434439ae98969d79ab2d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1366,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8785927367511262242, guid: 07923f9bdf48434439ae98969d79ab2d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 397.9
+      value: 446
       objectReference: {fileID: 0}
     - target: {fileID: 8785927367511262242, guid: 07923f9bdf48434439ae98969d79ab2d, type: 3}
       propertyPath: m_AnchoredPosition.y

@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.Text.RegularExpressions;
 
-namespace Z_16
+namespace D012
 {
     public class Register : MonoBehaviour
     {
@@ -32,7 +30,7 @@ namespace Z_16
             string userStr = ifd_User.text;
             string passStr = ifd_Pass.text;
             string agaginPassStr = ifd_AgainPass.text;
-            LoginSystemAllRule loginSystem = LoginSystemAllRule.Instance;
+            LoginSystem loginSystem = LoginSystem.Instance;
 
             if (userStr == string.Empty || passStr == string.Empty)
             {

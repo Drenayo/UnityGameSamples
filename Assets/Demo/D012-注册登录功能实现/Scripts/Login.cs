@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Z_16
+namespace D012
 {
     public class Login : MonoBehaviour
     {
@@ -25,7 +23,7 @@ namespace Z_16
 
             string userStr = ifd_User.text;
             string passStr = ifd_Pass.text;
-            LoginSystemAllRule loginSystem = LoginSystemAllRule.Instance;
+            LoginSystem loginSystem = LoginSystem.Instance;
             string tempValue = string.Empty;
 
             if (userStr == string.Empty || passStr == string.Empty)
@@ -56,7 +54,7 @@ namespace Z_16
 
         public void Btn_TempLogin()
         {
-            LoginSystemAllRule.Instance.ShowErrorTipsPanel("游客登录成功！！");
+            LoginSystem.Instance.ShowErrorTipsPanel("游客登录成功！！");
         }
 
         // 显示密码

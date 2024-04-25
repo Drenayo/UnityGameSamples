@@ -7,17 +7,25 @@ namespace D004
     {
         public float startOffset = -500f;
         public float endOffset = 500f;
-        public List<RectTransform> imageList;
+        [Header("卡片间距")]
+        public float cardSpacing = 200f;
         public bool isPlaying = true;
+        [Header("速度")]
         public float slideSpeed = 100f;
+        [Header("方向控制")]
         public bool slideToLeft = true;
+
+        private List<RectTransform> imageList;
 
         private void Start()
         {
             imageList = new List<RectTransform>();
+            float currentXPosition = startOffset; // 用于追踪每个卡片的当前 X 位置
             foreach (RectTransform child in transform)
             {
                 imageList.Add(child);
+                child.anchoredPosition = new Vector2(currentXPosition, 0f); // 设置卡片的初始位置
+                currentXPosition += cardSpacing; // 将当前位置增加间距，为下一个卡片预留空间
             }
         }
 
