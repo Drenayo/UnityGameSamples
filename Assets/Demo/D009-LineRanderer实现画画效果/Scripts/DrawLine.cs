@@ -35,7 +35,7 @@ namespace D009
 
         void Update()
         {
-            if (Input.GetKey(KeyCode.Mouse0))
+            if (Input.GetKey(KeyCode.Mouse0) && !LineManager.IsPointerOverGameObject(Input.mousePosition))
             {
                 // 2D写法
                 Vector3 mousePoint = Input.mousePosition;
