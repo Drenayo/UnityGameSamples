@@ -801,13 +801,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 780235357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7add0d1a41598b84e952b6a634ad6a74, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c144f34e6bef204d8a311d8cd6adb26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1500
   maxAngle: 35
   angleSpeed: 50
-  breakMove: 2000
+  breakMove: 1000
   leftF: {fileID: 772911968}
   leftB: {fileID: 1329139527}
   rightF: {fileID: 1012903811}
