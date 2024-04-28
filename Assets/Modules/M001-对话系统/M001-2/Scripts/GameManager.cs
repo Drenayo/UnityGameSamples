@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Dialogue2;
-namespace Dialogue1Demo
+
+
+namespace M001_2
 {
     public class GameManager : MonoBehaviour
     {

@@ -483,6 +483,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1842854202}
     m_Modifications:
+    - target: {fileID: -2825675356669328984, guid: c534b24bb7f59cc4f89625f5258864a5, type: 3}
+      propertyPath: typeSpeed
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 2183977521281770239, guid: c534b24bb7f59cc4f89625f5258864a5, type: 3}
       propertyPath: m_Name
       value: DialoguePanel

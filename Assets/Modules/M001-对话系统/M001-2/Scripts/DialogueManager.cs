@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-namespace Dialogue2 
+namespace M001_2
 {
     public class DialogueManager : MonoBehaviour
     {
