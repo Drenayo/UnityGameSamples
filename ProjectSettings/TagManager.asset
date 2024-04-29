@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Z2/Cube
   - Bullet
   - Item
   - Soldier

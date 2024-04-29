@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Z_2
+namespace D015
 {
     public class CheckCube : MonoBehaviour
     {
@@ -26,7 +26,7 @@ namespace Z_2
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, 100f, layerMask))
             {
-                if (hit.collider.CompareTag("Z2/Cube") && Input.GetMouseButtonDown(1))
+                if (hit.collider.CompareTag("Item") && Input.GetMouseButtonDown(1))
                 {
                     ItemCube itemCube = hit.collider.gameObject.GetComponent<ItemCube>();
                     textName.text = itemCube.nameStr;
