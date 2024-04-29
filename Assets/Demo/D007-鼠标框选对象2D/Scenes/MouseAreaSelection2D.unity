@@ -289,21 +289,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2043d13479d2c774b83256c4f139c4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  array: []
-  list: []
   box: {fileID: 21555818}
-  leftUpPoint: {x: 0, y: 0, z: 0}
-  leftDownPoint: {x: 0, y: 0, z: 0}
-  rightUpPoint: {x: 0, y: 0, z: 0}
-  rightDownPoint: {x: 0, y: 0, z: 0}
   line: {fileID: 21555815}
   layerMask:
     serializedVersion: 2
     m_Bits: 8
   deepZ: 5
   cam: {fileID: 550777345}
-  cube: {fileID: 278980951}
-  cube2: {fileID: 1027390614}
   text: {fileID: 972400169}
 --- !u!4 &21555817
 Transform:
@@ -703,7 +695,7 @@ GameObject:
   - component: {fileID: 972400169}
   - component: {fileID: 972400168}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: 'Text '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -726,8 +718,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 150.3457, y: 0}
-  m_SizeDelta: {x: 300.6914, y: 0}
+  m_AnchoredPosition: {x: 560.8761, y: -130.71619}
+  m_SizeDelta: {x: 402.8134, y: -261.4323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &972400168
 MonoBehaviour:
@@ -765,7 +757,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 33cda5b42b5dd8f43bb1197f7e7955d1, type: 3}
     m_FontSize: 38
     m_FontStyle: 1
     m_BestFit: 0
