@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using static UnityEngine.GraphicsBuffer;
 
 namespace D020
 {
@@ -56,7 +53,8 @@ namespace D020
                 WheelsControl_Update();
             }
 
-            WheelRot();
+            // 键盘的操作逻辑
+            // WheelRot();
         }
 
         void WheelsControl_Update()
