@@ -508,6 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogGo: {fileID: 103294219}
+  dialogID: 1
 --- !u!4 &975446576
 Transform:
   m_ObjectHideFlags: 0
