@@ -8,6 +8,8 @@ namespace M001_2
     public class GameManager : MonoBehaviour
     {
         public GameObject dialogGo;
+        [Header("想要触发的对话ID编号")]
+        public int dialogID;
         void Start()
         {
             
@@ -15,7 +17,7 @@ namespace M001_2
         public void OnClick_Dialogue()
         {
             dialogGo.SetActive(true);
-            DialogueManager.Instance.SetDialogID(8);
+            DialogueManager.Instance.SetDialogID(dialogID);
         }
     }
 }
