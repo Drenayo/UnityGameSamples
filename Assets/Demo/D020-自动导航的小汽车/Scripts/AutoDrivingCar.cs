@@ -80,6 +80,9 @@ namespace D020
             t.rotation = rot;
         }
 
+        /// <summary>
+        /// 键盘控制
+        /// </summary>
         void WheelRot()
         {
             //左转向
@@ -113,7 +116,9 @@ namespace D020
             rightB.brakeTorque = isBraking ? breakMove : 0f;
         }
 
-
+        /// <summary>
+        /// 自动控制
+        /// </summary>
         void AutoDrive()
         {
             // 根据NavMeshAgent的移动方向计算车轮的转向角度
