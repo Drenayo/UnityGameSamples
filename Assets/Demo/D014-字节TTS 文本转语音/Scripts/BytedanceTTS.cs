@@ -23,7 +23,7 @@ namespace D014
         public string textStr = "";
         public InputField inputField;
         public Button btn_Start;
-
+        public AudioSource aa;
         private void Start()
         {
             btn_Start.onClick.AddListener(Btn_TTS);
@@ -55,12 +55,12 @@ namespace D014
                 // client.DefaultRequestHeaders.Add("Authorization", $"Bearer;2T4MIiG3vafZ2TmEnYIMfEmwZaPpZaBY"); 
 
                 // 构建请求体
-                PostRequestBody requestBody = new PostRequestBody
+                var requestBody = new PostRequestBody
                 {
                     app = new App
                     {
-                        appid = appid,
-                        token = token,
+                        appid = "2832999305",
+                        token = "2T4MIiG3vafZ2TmEnYIMfEmwZaPpZaBY",
                         cluster = "volcano_tts"
                     },
                     user = new User
@@ -70,7 +70,7 @@ namespace D014
                     audio = new Audio
                     {
                         voice_type = "BV700_V2_streaming",
-                        encoding = "mp3",
+                        encoding = "wav",
                         speed_ratio = 1.0,
                         volume_ratio = 1.0,
                         pitch_ratio = 1.0
@@ -87,11 +87,8 @@ namespace D014
                 };
 
                 StringContent jsonContent = new StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json");
-                Debug.Log(JsonConvert.SerializeObject(requestBody));
                 var response = await client.PostAsync(url, jsonContent);
-                Debug.Log(response.Content.ToString());
-                Debug.Log(response.StatusCode.ToString());
-                Debug.Log(response.RequestMessage.ToString());
+
                 if (response.IsSuccessStatusCode)
                 {
                     string responseData = response.Content.ReadAsStringAsync().Result;
@@ -105,8 +102,13 @@ namespace D014
                         // 解码 
                         byte[] bytes = Convert.FromBase64String(dataToken.ToString());
                         // 写入 
-                        File.WriteAllBytes("C:\\Users\\Drenayo\\Desktop\\a.mp3", bytes);
+                        File.WriteAllBytes("C:\\Users\\Mayn\\Desktop\\a.wav", bytes);
                         Debug.Log("成功");
+                        aa.clip = WavUtility.ToAudioClip("C:\\Users\\Mayn\\Desktop\\a.wav");
+                        aa.Play(); 
+                        
+                        Debug.Log("成功");
+                        //C:\Users\Mayn\Desktop\Graphvie Editor - 副本
                     }
                 }
                 else
