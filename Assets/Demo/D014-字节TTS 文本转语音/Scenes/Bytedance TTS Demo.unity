@@ -1118,7 +1118,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bc465c2f7d98f0479350dbe21ef180c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textStr: 
+  token: 
+  appid: 
+  uid: 2101111469
+  url: https://openspeech.bytedance.com/api/v1/tts
+  path: "Demo/D014-\u5B57\u8282TTS \u6587\u672C\u8F6C\u8BED\u97F3/Audio"
+  textStr: 0
   inputField: {fileID: 1652361364}
   btn_Start: {fileID: 1443684882}
   aa: {fileID: 658836487}

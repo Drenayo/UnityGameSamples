@@ -15,15 +15,17 @@ namespace D014
 {
     public class BytedanceTTS : MonoBehaviour
     {
-        string token = "2T4MIiG3vafZ2TmEnYIMfEmwZaPpZaBY";
-        string appid = "2832999305";
-        string url = "https://openspeech.bytedance.com/api/v1/tts";
-
+        public string token = "";
+        public string appid = "";
+        public string uid = "";
+        public string url = "https://openspeech.bytedance.com/api/v1/tts";
+        public string path = "Demo/D014-字节TTS 文本转语音/Audio";
         // 要转换的文本
         public string textStr = "";
         public InputField inputField;
         public Button btn_Start;
         public AudioSource aa;
+
         private void Start()
         {
             btn_Start.onClick.AddListener(Btn_TTS);
@@ -49,23 +51,20 @@ namespace D014
             using (HttpClient client = new HttpClient())
             {
                 // 添加请求头 | 鉴权验证
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", ";2T4MIiG3vafZ2TmEnYIMfEmwZaPpZaBY");
-
-                // 这种写法行不通
-                // client.DefaultRequestHeaders.Add("Authorization", $"Bearer;2T4MIiG3vafZ2TmEnYIMfEmwZaPpZaBY"); 
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", $";{token}");
 
                 // 构建请求体
                 var requestBody = new PostRequestBody
                 {
                     app = new App
                     {
-                        appid = "2832999305",
-                        token = "2T4MIiG3vafZ2TmEnYIMfEmwZaPpZaBY",
+                        appid = appid,
+                        token = token,
                         cluster = "volcano_tts"
                     },
                     user = new User
                     {
-                        uid = "2101111469"
+                        uid = uid,
                     },
                     audio = new Audio
                     {
@@ -102,18 +101,17 @@ namespace D014
                         // 解码 
                         byte[] bytes = Convert.FromBase64String(dataToken.ToString());
                         // 写入 
-                        File.WriteAllBytes("C:\\Users\\Mayn\\Desktop\\a.wav", bytes);
+                        string filePath = Application.dataPath + "/" + path + "/a.wav";
+                        Debug.Log(filePath);
+                        File.WriteAllBytes(filePath, bytes);
+                        //aa.clip = WavUtility.ToAudioClip(filePath);
+                        //aa.Play();
                         Debug.Log("成功");
-                        aa.clip = WavUtility.ToAudioClip("C:\\Users\\Mayn\\Desktop\\a.wav");
-                        aa.Play(); 
-                        
-                        Debug.Log("成功");
-                        //C:\Users\Mayn\Desktop\Graphvie Editor - 副本
                     }
                 }
                 else
                 {
-                    Debug.Log($"失败-{response.StatusCode}");
+                    Debug.Log($"{response.Content.ReadAsStringAsync().Result}");
                 }
             }
         }
