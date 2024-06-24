@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 1813596121}
   - component: {fileID: 1813596120}
   m_Layer: 0
-  m_Name: "\u957F\u51F31"
+  m_Name: "\u957F\u51F3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,8 +393,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813596119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.99, y: 0.91, z: 0}
+  m_LocalScale: {x: 3.6569, y: 3.6569, z: 3.6569}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
