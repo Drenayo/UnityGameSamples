@@ -1,21 +1,23 @@
-using UnityEngine;
-using UnityEditor;
+#if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
-using Sirenix.Utilities.Editor;
+using Sirenix.OdinInspector.Editor;
+#endif
 using System;
 using System.Linq;
-using Sirenix.OdinInspector.Editor;
 using System.Reflection;
+using UnityEditor;
+using UnityEngine;
 
 public class CreateScriptableObjectEditor : OdinEditorWindow
 {
+#if ODIN_INSPECTOR
     public string soName = "NewScriptableObject";
     [FolderPath]
     public string soLocation = "Assets/";
     public string typeStr;
     private Type sotype;
 
-    [MenuItem("Tools/创建SO工具")]
+    [MenuItem("Tools/ProjectTools/创建SO工具")]
     private static void OpenWindow()
     {
         var w = GetWindow<CreateScriptableObjectEditor>();
@@ -24,7 +26,7 @@ public class CreateScriptableObjectEditor : OdinEditorWindow
 
     }
 
-    [Button("创建",ButtonSizes.Medium)]
+    [Button("创建", ButtonSizes.Medium)]
     public void Btn()
     {
         CreateScriptableObject(FindTypeByName(typeStr));
@@ -56,4 +58,5 @@ public class CreateScriptableObjectEditor : OdinEditorWindow
         }
         return null;
     }
+#endif
 }

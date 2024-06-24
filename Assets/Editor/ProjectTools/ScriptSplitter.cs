@@ -7,7 +7,7 @@ public class ScriptSplitter : EditorWindow
 {
     private string inputText = "";
 
-    [MenuItem("Tools/Script Splitter")]
+    [MenuItem("Tools/ProjectTools/代码分割工具")]
     static void Init()
     {
         ScriptSplitter window = (ScriptSplitter)EditorWindow.GetWindow(typeof(ScriptSplitter));

@@ -7,7 +7,7 @@ public class CodeLineCounterTool : EditorWindow
     private string folderPath;
     private int totalLines;
 
-    [MenuItem("Tools/代码行数统计工具")]
+    [MenuItem("Tools/ProjectTools/代码行数统计工具")]
     public static void ShowWindow()
     {
         EditorWindow.GetWindow(typeof(CodeLineCounterTool));

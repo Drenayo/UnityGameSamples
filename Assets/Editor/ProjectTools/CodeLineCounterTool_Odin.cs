@@ -1,8 +1,8 @@
-using UnityEngine;
-using UnityEditor;
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
 using System.IO;
-using Sirenix.OdinInspector;
+using UnityEditor;
 
 public class CodeLineCounter : OdinEditorWindow
 {
@@ -12,7 +12,7 @@ public class CodeLineCounter : OdinEditorWindow
 
     public int totalLines;
 
-    [MenuItem("Tools/代码统计工具_Odin")]
+    [MenuItem("Tools/ProjectTools/代码行数统计工具(Odin)")]
     public static void ShowWindow()
     {
         GetWindow<CodeLineCounter>().Show();
@@ -37,3 +37,4 @@ public class CodeLineCounter : OdinEditorWindow
         return totalLines;
     }
 }
+#endif
