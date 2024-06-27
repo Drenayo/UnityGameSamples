@@ -38,7 +38,7 @@ namespace D002
 
                 // 组合的思想
                 // <> + 已经打出的字 <> + <> 末尾未打出的字的剩余 <>
-                textTypeComponent.text = strTemp + endColorStr + GetStartColorStr(defaultColor) + typeContent.Substring(i + 1, typeContent.Length - (i + 1)) + endColorStr;
+                textTypeComponent.text = strTemp + endColorStr + GetStartColorStr(defaultColor) + typeContent.Substring(i + 1) + endColorStr;
             }
         }
 
