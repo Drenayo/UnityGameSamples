@@ -10,8 +10,8 @@
 <!-- 项目 LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="other/UnityGameSamplesF.png" alt="Logo" width="500" height="300">
+  <a href="https://github.com/Drenayo/UnityGameSamples">
+    <img src="Other/UnityGameSamplesF.png" alt="Logo" width="500" height="300">
   </a>
 
   <h3 align="center">UnityGameSamples</h3>
