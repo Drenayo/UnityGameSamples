@@ -3161,8 +3161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8399c2be871bdd34e9cd167d2d166a0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  errorTipsPanel: {fileID: 0}
-  text_ErrorTips: {fileID: 0}
+  errorTipsPanel: {fileID: 1944550513}
+  text_ErrorTips: {fileID: 1425350232}
   tipsPanelShowTime: 1
 --- !u!1 &1425350230
 GameObject:
