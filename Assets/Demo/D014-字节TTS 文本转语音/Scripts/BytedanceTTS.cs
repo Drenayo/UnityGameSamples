@@ -10,6 +10,7 @@ using System.Text;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using UnityEditor;
 
 namespace D014
 {
@@ -18,17 +19,22 @@ namespace D014
         public string token = "";
         public string appid = "";
         public string uid = "";
-        public string url = "https://openspeech.bytedance.com/api/v1/tts";
-        public string path = "Demo/D014-字节TTS 文本转语音/Audio";
-        // 要转换的文本
-        public string textStr = "";
+
+        [Space(10)]
         public InputField inputField;
         public Button btn_Start;
-        public AudioSource aa;
+
+        private string url = "https://openspeech.bytedance.com/api/v1/tts";
+        private string path = "Demo/D014-字节TTS 文本转语音/Audio";
+        private string textStr = "";
+        private string fullPath;
 
         private void Start()
         {
             btn_Start.onClick.AddListener(Btn_TTS);
+
+            fullPath = Application.dataPath + "/" + path + "/a.wav";
+            Debug.Log("存放路径：" + fullPath);
         }
 
         private void OnDestroy()
@@ -50,6 +56,7 @@ namespace D014
         {
             using (HttpClient client = new HttpClient())
             {
+
                 // 添加请求头 | 鉴权验证
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", $";{token}");
 
@@ -84,15 +91,13 @@ namespace D014
                         frontend_type = "unitTson"
                     }
                 };
-
                 StringContent jsonContent = new StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json");
                 var response = await client.PostAsync(url, jsonContent);
-
+                string responseData = response.Content.ReadAsStringAsync().Result;
+                // 将JSON响应解析为JObject 
+                JObject jsonResponse = JObject.Parse(responseData);
                 if (response.IsSuccessStatusCode)
                 {
-                    string responseData = response.Content.ReadAsStringAsync().Result;
-                    // 将JSON响应解析为JObject 
-                    JObject jsonResponse = JObject.Parse(responseData);
                     // 解析指定字段 
                     JToken dataToken = jsonResponse["data"];
 
@@ -100,18 +105,14 @@ namespace D014
                     {
                         // 解码 
                         byte[] bytes = Convert.FromBase64String(dataToken.ToString());
-                        // 写入 
-                        string filePath = Application.dataPath + "/" + path + "/a.wav";
-                        Debug.Log(filePath);
-                        File.WriteAllBytes(filePath, bytes);
-                        //aa.clip = WavUtility.ToAudioClip(filePath);
-                        //aa.Play();
-                        Debug.Log("成功");
+                        File.WriteAllBytes(fullPath, bytes);
+                        Debug.Log($"生成语音【{textStr}】成功！");
+                        AssetDatabase.Refresh();
                     }
                 }
                 else
                 {
-                    Debug.Log($"{response.Content.ReadAsStringAsync().Result}");
+                    Debug.Log($"错误原因：{jsonResponse["message"]}");
                 }
             }
         }
