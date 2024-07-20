@@ -91,11 +91,13 @@ namespace D014
                         frontend_type = "unitTson"
                     }
                 };
+
                 StringContent jsonContent = new StringContent(JsonConvert.SerializeObject(requestBody), Encoding.UTF8, "application/json");
                 var response = await client.PostAsync(url, jsonContent);
                 string responseData = response.Content.ReadAsStringAsync().Result;
                 // 将JSON响应解析为JObject 
                 JObject jsonResponse = JObject.Parse(responseData);
+
                 if (response.IsSuccessStatusCode)
                 {
                     // 解析指定字段 
@@ -107,7 +109,6 @@ namespace D014
                         byte[] bytes = Convert.FromBase64String(dataToken.ToString());
                         File.WriteAllBytes(fullPath, bytes);
                         Debug.Log($"生成语音【{textStr}】成功！");
-                        AssetDatabase.Refresh();
                     }
                 }
                 else
