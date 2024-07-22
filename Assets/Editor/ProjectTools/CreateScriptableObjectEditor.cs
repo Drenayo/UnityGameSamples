@@ -1,7 +1,7 @@
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
-#endif
+
 using System;
 using System.Linq;
 using System.Reflection;
@@ -10,7 +10,6 @@ using UnityEngine;
 
 public class CreateScriptableObjectEditor : OdinEditorWindow
 {
-#if ODIN_INSPECTOR
     public string soName = "NewScriptableObject";
     [FolderPath]
     public string soLocation = "Assets/";
@@ -58,5 +57,5 @@ public class CreateScriptableObjectEditor : OdinEditorWindow
         }
         return null;
     }
-#endif
 }
+#endif
