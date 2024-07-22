@@ -227,6 +227,7 @@ A:2(昂首挺胸！)
 B站：[梦小天幼](https://space.bilibili.com/104418839?spm_id_from=333.1007.0.0)
 
 本项目社区交流群：750594587（QQ）
+![qq](Other/QQ_RC.png)
 
 Drenayo 最新更新于 2024.07.20
 
