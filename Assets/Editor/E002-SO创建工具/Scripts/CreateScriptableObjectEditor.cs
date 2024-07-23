@@ -38,7 +38,7 @@ namespace E002
         private void CreateScriptableObject(Type type)
         {
             ScriptableObject so = ScriptableObject.CreateInstance(type);
-            string assetPath = AssetDatabase.GenerateUniqueAssetPath(soLocation + soName + ".asset");
+            string assetPath = AssetDatabase.GenerateUniqueAssetPath(soLocation + "/" + soName + ".asset");
             AssetDatabase.CreateAsset(so, assetPath);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
